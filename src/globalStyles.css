@@ -1,0 +1,28 @@
+@import "tailwindcss";
+
+@font-face {
+    font-family: 'Megante';
+    src: url('/fonts/megante.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Saudagar';
+    src: url('/fonts/saudagar.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BugetaDream';
+    src: url('/fonts/bugetaDream.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@theme {
+    --font-megante: megante;
+    --font-saudagar: saudagar;
+    --font-bugetaDream: bugetaDream;
+}
