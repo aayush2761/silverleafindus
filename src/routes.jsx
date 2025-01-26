@@ -20,7 +20,7 @@ function MainRoutes() {
 	return (
 		<Routes>
 			<Route path="/" element={<Home />} />
-			<Route path="/product" element={<Product />} />
+			<Route path="/product/:productID" element={<Product />} />
 			<Route path="/user" element={<UserProfile />} />
 		</Routes>
 	);
