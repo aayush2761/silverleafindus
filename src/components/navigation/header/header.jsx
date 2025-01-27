@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link, NavLink } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 import Logo from '/logo.png';
 import UserOutlineIcon from '/icons/userOutlineIcon.png';
 import UserFilledIcon from '/icons/userFilledIcon.png';
@@ -10,6 +10,7 @@ function Header() {
     const [userIcon, setUserIcon] = useState(UserOutlineIcon);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [scroll, setScroll] = useState(false);
+    const navigate = useNavigate();
     
     const handleScroll = () => {
         if (window.scrollY > 5) {
@@ -73,10 +74,33 @@ function Header() {
             </div>
         );
     };
-    
+
+    const handleProductClick = () => {
+        setIsMenuOpen(false);
+        navigate('/');
+        const element = document.getElementById("products");
+        if (element) {
+            element.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+        }
+    }
+
+    const handleHomeClick = () => {
+        setIsMenuOpen(false);
+        const element = document.getElementById("home");
+        if (element) {
+            element.scrollIntoView({
+                behavior: "smooth",
+                block: "start"
+            });
+        }
+    }
+
     return (
         <>
-            <div className={`fixed w-full h-[80px] z-10 flex flex-row justify-between items-center py-1 px-5 sm:px-14 transition-all ease-in-out ${scroll ? 'bg-white shadow-md' : ''}`}>
+            <div className={`fixed w-full h-[80px] z-10 flex flex-row justify-between items-center py-1 px-5 sm:px-14 transition-all ease-in-out ${scroll ? 'bg-white shadow-xl' : ''}`}>
                 <button className="scale-50 lg:hidden" onClick={handleMenuClick}>
                     <img src={MenuIcon} alt="Navigation Menu Icon" className={`w-[50px] h-[50px] ${scroll ? '' : 'invert'}`} />
                 </button>
@@ -89,22 +113,23 @@ function Header() {
                 </section>
 
                 <section className="hidden lg:flex flex-row justify-center items-center gap-10">
-                    <NavLink to="/" onClick={handleLinkClick} className={({ isActive }) => `font-megante relative group ${scroll ? `${isActive ? "text-black" : "text-slate-500"}` : `${isActive ? "text-white" : "text-slate-100"}`}`  } >
+                    <NavLink to="/" onClick={handleHomeClick} className={({ isActive }) => `font-megante relative group ${scroll ? `${isActive ? "text-black" : "text-slate-600"}` : `${isActive ? "text-white" : "text-slate-100"}`}`  } >
                         <span>Home</span>
                         <span className={`absolute left-0 bottom-0 w-0 h-[1px] ${scroll ? "bg-black" : "bg-white"} transition-all duration-300 group-hover:w-full`}></span>
                     </NavLink>
 
-                    <NavLink to="/products" onClick={handleLinkClick} className={({ isActive }) => `font-megante relative group ${scroll ? `${isActive ? "text-black" : "text-slate-500"}` : `${isActive ? "text-white" : "text-slate-100"}`}`  } >
+                    <NavLink to="/" onClick={handleProductClick} className={({ isActive }) => `font-megante relative group ${scroll ? `${isActive ? "text-black" : "text-slate-600"}` : `${isActive ? "text-white" : "text-slate-100"}`}`  } >
                         <span>Products</span>
                         <span className={`absolute left-0 bottom-0 w-0 h-[1px] ${scroll ? "bg-black" : "bg-white"} transition-all duration-300 group-hover:w-full`}></span>
                     </NavLink>
 
-                    <NavLink to="/about" onClick={handleLinkClick} className={({ isActive }) => `font-megante relative group ${scroll ? `${isActive ? "text-black" : "text-slate-500"}` : `${isActive ? "text-white" : "text-slate-100"}`}`  } >
+
+                    <NavLink to="/about" onClick={handleLinkClick} className={({ isActive }) => `font-megante relative group ${scroll ? `${isActive ? "text-black" : "text-slate-600"}` : `${isActive ? "text-white" : "text-slate-100"}`}`  } >
                         <span>About Us</span>
                         <span className={`absolute left-0 bottom-0 w-0 h-[1px] ${scroll ? "bg-black" : "bg-white"} transition-all duration-300 group-hover:w-full`}></span>
                     </NavLink>
 
-                    <NavLink to="/contact" onClick={handleLinkClick} className={({ isActive }) => `font-megante relative group ${scroll ? `${isActive ? "text-black" : "text-slate-500"}` : `${isActive ? "text-white" : "text-slate-100"}`}` }>
+                    <NavLink to="/contact" onClick={handleLinkClick} className={({ isActive }) => `font-megante relative group ${scroll ? `${isActive ? "text-black" : "text-slate-600"}` : `${isActive ? "text-white" : "text-slate-100"}`}` }>
                         <span>Contact Us</span>
                         <span className={`absolute left-0 bottom-0 w-0 h-[1px] ${scroll ? "bg-black" : "bg-white"} transition-all duration-300 group-hover:w-full`}></span>
                     </NavLink>

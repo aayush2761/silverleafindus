@@ -26,3 +26,20 @@
     --font-saudagar: saudagar;
     --font-bugetaDream: bugetaDream;
 }
+
+@keyframes marquee {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.animate-marquee {
+    animation: marquee 300s linear infinite;
+}
+
+html {
+    scroll-behavior: smooth;
+}  
