@@ -61,7 +61,7 @@ function Header() {
     
     return (
         <>
-            <div className="w-full flex flex-row justify-between items-center py-1 px-5 sm:px-14">
+            <div className="w-full h-[80px] bg-white flex flex-row justify-between items-center py-1 px-5 sm:px-14 transition-all ease-in-out">
                 <button className="scale-50 lg:hidden" onClick={handleMenuClick}>
                     <img src={MenuIcon} alt="Navigation Menu Icon" className="w-[50px] h-[50px]" />
                 </button>
@@ -69,7 +69,7 @@ function Header() {
                 <section className="w-fit flex flex-row justify-center items-center gap-7">
                     <img src={Logo} alt="SilverLeaf Indus Logo" className="hidden lg:block w-[50px] h-[50px]" />
                     <Link to="/" className="flex flex-col justify-evenly items-start">
-                        <h1 className="font-bugetaDream text-2xl mt-2">SilverLeaf <br className="hidden lg:block" /> Indus</h1>
+                        <h1 className="font-bugetaDream text-2xl mt-2">SilverLeaf <br className="hidden lg:block" /> Indus </h1>
                     </Link>
                 </section>
 
@@ -131,7 +131,7 @@ function Header() {
             </div>
 
             {isMenuOpen && <NavigationPanel />}
-            
+
         </>
     );
 }
