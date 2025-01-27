@@ -1,5 +1,6 @@
 import React from 'react';
 import TextureOne from '/texture/textureOne.jpg';
+import ProductDetails from '../../essentials/products.json';
 
 function Home() {
     const bannerWords = [ "Heritage", "Legacy", "Tradition", "Craftsmanship", "Culture",  "Artistry", "Timeless", "Elegance", "Masterpiece", "Authenticity" ];
@@ -24,7 +25,7 @@ function Home() {
                     </div>               
                 </div>
                 
-                <div className="relative w-full h-[60px] sm:h-[70px] md:h-[80px] lg:h-[90px] 2xl:h-[100px] bg-[#131313] flex justify-center items-center overflow-hidden transition-all ease-in-out">
+                <section className="relative w-full h-[60px] sm:h-[70px] md:h-[80px] lg:h-[90px] 2xl:h-[100px] bg-[#131313] flex justify-center items-center overflow-hidden transition-all ease-in-out">
                     <div className="absolute flex animate-marquee">
                         {[...bannerWords, ...bannerWords, ...bannerWords, ...bannerWords, ...bannerWords, ...bannerWords, ...bannerWords, ...bannerWords, ...bannerWords, ...bannerWords, ...bannerWords, ...bannerWords, ...bannerWords, ...bannerWords].map((word, index) => (
                             <div key={index} className="text-amber-100 text-xl sm:text-2xl md:text-3xl 2xl:text-4xl font-saudagar px-5 py-2 uppercase transition-all ease-in-out">
@@ -32,11 +33,25 @@ function Home() {
                             </div>
                         ))}
                     </div>
-                </div>
+                </section>
 
-                <div id='products' className='w-full h-screen'>
+                <section id='products' className='w-full h-auto pt-10'>
+                    <h1 className='font-bugetaDream text-[#131313] text-center text-3xl sm:text-4xl md:text-5xl xl:text-6xl capitalize'>
+                        Our Products
+                    </h1>
 
-                </div>
+                    <div className='flex justify-center mt-3'>
+                        <span className='w-[200px] h-[2px] bg-[#131313] rounded-full'></span>
+                    </div>
+
+                    <div className="flex flex-wrap justify-center mt-10">
+                        {ProductDetails.products.map((product) => (
+                            <div key={product.productID} className="w-full">
+                                <img src={product.image1} alt={product.name} className="w-full h-auto mt-4" />
+                            </div>
+                        ))}
+                    </div>
+                </section>
             </main>
         </>
     );

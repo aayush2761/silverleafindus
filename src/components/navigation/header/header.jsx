@@ -80,9 +80,11 @@ function Header() {
         navigate('/');
         const element = document.getElementById("products");
         if (element) {
-            element.scrollIntoView({
-                behavior: "smooth",
-                block: "start"
+            const offset = 125;
+            const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+            window.scrollTo({
+                top: elementPosition - offset,
+                behavior: "smooth"
             });
         }
     }

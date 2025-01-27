@@ -1,0 +1,27 @@
+{
+    "products": [
+        {
+            "productID": 1,
+            "name": "Mighty Horse",
+            "image1": "/productPictures/horse/horseOne.webp",
+            "image2": "/productPictures/horse/horseTwo.webp",
+            "image3": "/productPictures/horse/horseThree.webp"
+        },
+        {
+            "productID": 2,
+            "name": "The Celestial Eagle",
+            "image1": "/productPictures/eagle/eagleOne.webp",
+            "image2": "/productPictures/eagle/eagleTwo.webp",
+            "image3": "/productPictures/eagle/eagleThree.webp",
+            "image4": "/productPictures/eagle/eagleFour.webp"
+        },
+        {
+            "productID": 3,
+            "name": "Sky Piercer",
+            "image1": "/productPictures/skyPiercer/skyPiercerOne.webp",
+            "image2": "/productPictures/skyPiercer/skyPiercerTwo.webp",
+            "image3": "/productPictures/skyPiercer/skyPiercerThree.webp",
+            "image4": "/productPictures/skyPiercer/skyPiercerFour.webp"
+        }
+    ]
+}
