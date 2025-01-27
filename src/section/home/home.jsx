@@ -9,7 +9,6 @@ function Home() {
     return (
         <>
             <main className="relative">
-                {/* Hero Section */}
                 <div id='home' className="relative w-full h-screen">
                     <img src={TextureOne} alt="Background Texture" className="w-full h-full object-cover -z-10 filter brightness-50" />
                     <div className="absolute inset-0 flex flex-col justify-center items-center px-5">
@@ -27,7 +26,6 @@ function Home() {
                     </div>
                 </div>
 
-                {/* Marquee Banner */}
                 <section className="relative w-full h-[60px] sm:h-[70px] md:h-[80px] lg:h-[90px] 2xl:h-[100px] bg-[#131313] flex justify-center items-center overflow-hidden transition-all ease-in-out">
                     <div className="absolute flex animate-marquee">
                         {Array(10).fill(bannerWords).flat().map((word, index) => (
@@ -38,7 +36,6 @@ function Home() {
                     </div>
                 </section>
 
-                {/* Products Section */}
                 <section id='products' className='w-full h-auto pt-10'>
                     <h1 className='font-bugetaDream text-[#131313] text-center text-3xl sm:text-4xl md:text-5xl xl:text-6xl capitalize'>
                         Our Products
@@ -50,8 +47,8 @@ function Home() {
 
                     <div className="flex flex-wrap justify-center mt-10 sm:gap-4">
                         {ProductDetails.map((product) => (
-                            <Link to={`/product/${product.productID}`} key={product.productID} className="w-full xs:w-[80%] sm:w-[70%] md:w-[40%] p-2">
-                                <img src={product.image1} alt={product.name} className="w-full h-auto mt-4 rounded-lg shadow-md" />                 
+                            <Link to={`/product/${product.productID}`} key={product.productID} className="w-full xs:w-[80%] sm:w-[70%] md:w-[40%] max-w-[500px] p-2">
+                                <img src={product.image1} alt={product.name} className="w-full h-auto mt-4 shadow-md" />              
                             </Link>
                         ))}
                     </div>
