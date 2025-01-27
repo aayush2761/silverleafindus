@@ -8,17 +8,17 @@
 			"/productPictures/horse/horseTwo.webp",
 			"/productPictures/horse/horseThree.webp"
 		],
-		"description": "High-performance Reebok shoes designed for optimal comfort and style. Perfect for running and everyday use.",
+		"description": "A black metallic Indian horse artifact symbolizing strength and resilience. A perfect addition to any collection or decor.",
 		"reviews": {
 			"rating": 4.8,
 			"count": 42
 		},
-		"shipping_info": "Free delivery on orders over $30.0",
-		"features": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula neque sit amet nisl pharetra, non dictum turpis sollicitudin.",
-		"materials": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus, mi vel facilisis vehicula, risus nisl ullamcorper libero, ac scelerisque urna ex ac erat.",
-		"dimensions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique, augue non dapibus porttitor, eros turpis pulvinar est, eget dictum metus velit et lacus.",
-		"productCare": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Donec nec consequat ex, vitae fermentum nulla.",
-		"stylingTips": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis enim sit amet risus suscipit, a dictum nisi consectetur."
+		"shipping_info": "Free delivery on orders over $50. Secure packaging to prevent damage during transit.",
+		"features": "Exquisite handcrafted design, rich metallic black finish, durable and timeless craftsmanship.",
+		"materials": "Premium-grade black metallic alloy with an anti-corrosion finish.",
+		"dimensions": "Height: 12 inches, Width: 8 inches, Depth: 4 inches.",
+		"productCare": "Wipe with a soft, dry cloth. Avoid using harsh chemicals or abrasives to maintain the finish.",
+		"stylingTips": "Display it on a console table or shelf with other Indian artifacts to create a striking cultural theme."
 	},
 	{
 		"productID": "the-celestial-eagle",
@@ -30,17 +30,17 @@
 			"/productPictures/eagle/eagleThree.webp",
 			"/productPictures/eagle/eagleFour.webp"
 		],
-		"description": "High-performance Reebok shoes designed for optimal comfort and style. Perfect for running and everyday use.",
+		"description": "A stunning metallic Indian eagle artifact, embodying grace and freedom. Ideal for decor or gifting.",
 		"reviews": {
-			"rating": 4.8,
-			"count": 42
+			"rating": 4.7,
+			"count": 36
 		},
-		"shipping_info": "Free delivery on orders over $30.0",
-		"features": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula neque sit amet nisl pharetra, non dictum turpis sollicitudin.",
-		"materials": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus, mi vel facilisis vehicula, risus nisl ullamcorper libero, ac scelerisque urna ex ac erat.",
-		"dimensions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique, augue non dapibus porttitor, eros turpis pulvinar est, eget dictum metus velit et lacus.",
-		"productCare": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Donec nec consequat ex, vitae fermentum nulla.",
-		"stylingTips": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis enim sit amet risus suscipit, a dictum nisi consectetur."
+		"shipping_info": "Free delivery on orders over $50. Carefully packed to ensure it arrives in pristine condition.",
+		"features": "Intricate detailing on feathers and base, lustrous metallic finish, handcrafted by skilled artisans.",
+		"materials": "High-quality metallic alloy with a polished finish.",
+		"dimensions": "Height: 10 inches, Width: 6 inches, Depth: 5 inches.",
+		"productCare": "Clean with a soft, dry cloth. Keep away from moisture to prevent tarnishing.",
+		"stylingTips": "Pair with modern or rustic decor for a bold centerpiece on a mantel or sideboard."
 	},
 	{
 		"productID": "sky-piercer-one",
@@ -52,17 +52,17 @@
 			"/productPictures/skyPiercer/skyPiercerThree.webp",
 			"/productPictures/skyPiercer/skyPiercerFour.webp"
 		],
-		"description": "High-performance Reebok shoes designed for optimal comfort and style. Perfect for running and everyday use.",
+		"description": "A majestic metallic Indian artifact representing the union of strength and artistry. A centerpiece for any room.",
 		"reviews": {
-			"rating": 4.8,
-			"count": 42
+			"rating": 4.9,
+			"count": 50
 		},
-		"shipping_info": "Free delivery on orders over $30.0",
-		"features": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula neque sit amet nisl pharetra, non dictum turpis sollicitudin.",
-		"materials": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus, mi vel facilisis vehicula, risus nisl ullamcorper libero, ac scelerisque urna ex ac erat.",
-		"dimensions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique, augue non dapibus porttitor, eros turpis pulvinar est, eget dictum metus velit et lacus.",
-		"productCare": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Donec nec consequat ex, vitae fermentum nulla.",
-		"stylingTips": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis enim sit amet risus suscipit, a dictum nisi consectetur."
+		"shipping_info": "Free delivery on orders over $50. Expertly packed to avoid any damage during shipping.",
+		"features": "Dynamic design with sharp edges, reflective metallic finish, built for longevity.",
+		"materials": "Premium metallic alloy treated with anti-corrosion properties.",
+		"dimensions": "Height: 15 inches, Width: 10 inches, Depth: 6 inches.",
+		"productCare": "Dust regularly with a dry cloth. Avoid contact with water or direct sunlight to preserve its finish.",
+		"stylingTips": "Place near a light source to highlight its sheen and create an eye-catching display."
 	},
 	{
 		"productID": "travel-bus",
@@ -73,16 +73,16 @@
 			"/productPictures/travelBus/travelBusTwo.webp",
 			"/productPictures/travelBus/travelBusThree.webp"
 		],
-		"description": "High-performance Reebok shoes designed for optimal comfort and style. Perfect for running and everyday use.",
+		"description": "A vintage-inspired metallic Indian travel bus artifact symbolizing journeys and adventures. A timeless decor piece.",
 		"reviews": {
-			"rating": 4.8,
-			"count": 42
+			"rating": 4.6,
+			"count": 30
 		},
-		"shipping_info": "Free delivery on orders over $30.0",
-		"features": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula neque sit amet nisl pharetra, non dictum turpis sollicitudin.",
-		"materials": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus, mi vel facilisis vehicula, risus nisl ullamcorper libero, ac scelerisque urna ex ac erat.",
-		"dimensions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique, augue non dapibus porttitor, eros turpis pulvinar est, eget dictum metus velit et lacus.",
-		"productCare": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Donec nec consequat ex, vitae fermentum nulla.",
-		"stylingTips": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis enim sit amet risus suscipit, a dictum nisi consectetur."
+		"shipping_info": "Free delivery on orders over $50. Shipped in secure packaging for protection.",
+		"features": "Detailed retro design, metallic finish with a hint of patina, robust craftsmanship.",
+		"materials": "Metallic alloy with a semi-gloss antique finish.",
+		"dimensions": "Height: 8 inches, Width: 12 inches, Depth: 5 inches.",
+		"productCare": "Wipe gently with a dry cloth. Avoid using water or harsh cleaning agents.",
+		"stylingTips": "Display on a coffee table or bookshelf for a nostalgic and cultural touch."
 	}
 ]

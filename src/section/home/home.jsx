@@ -36,7 +36,7 @@ function Home() {
                     </div>
                 </section>
 
-                <section id='products' className='w-full h-auto pt-10'>
+                <section id='products' className='w-full h-auto py-10'>
                     <h1 className='font-bugetaDream text-[#131313] text-center text-3xl sm:text-4xl md:text-5xl xl:text-6xl capitalize'>
                         Our Products
                     </h1>
@@ -45,16 +45,27 @@ function Home() {
                         <span className='w-[200px] h-[2px] bg-[#131313] rounded-full'></span>
                     </div>
 
-                    <div className="flex flex-wrap justify-center mt-10 sm:gap-4">
+                    <div className="flex flex-wrap justify-center mt-20 gap-10">
                         {ProductDetails.map((product) => (
-                            <Link to={`/product/${product.productID}`} key={product.productID} className="w-full xs:w-[80%] sm:w-[70%] md:w-[40%] max-w-[600px] hover:drop-shadow-lg">
-                                <div className='flex flex-col justify-center items-center mt-10'>
-                                    <img src={product.images[0]} alt={product.name} className="w-full h-auto shadow-md" />
-                                    <div className='w-full h-[75px] flex flex-row justify-between items-center'>
-                                        <h1 className='w-full font-bugetaDream text-2xl text-center lg:text-start text-[#131313] hover:text-slate-800'>{product.name}</h1>
+                            <div className="bg-white w-full xs:w-[80%] sm:w-[70%] md:w-[40%] max-w-[600px] shadow-lg">
+                                <div className="relative">
+                                    <img src={product.images[0]} alt="Nike Athletic Shoe" className="w-full h-auto" />
+                                </div>
+                        
+                                <div className="px-6 sm:px-10 py-4 mt-4 space-y-3">
+                                    <h2 className="text-2xl font-saudagar text-gray-800">{product.name}</h2>
+                                    <h2 className="text-lg  font-saudagar text-gray-600 lowercase">{product.description}</h2>
+                                    
+                                    <div className="flex justify-between items-center">
+                                        <div>
+                                            <p className="text-gray-600 text-lg font-saudagar">Price</p>
+                                            <p className="text-2xl font-bold text-gray-900 font-saudagar">{product.price}</p>
+                                        </div>
+                                    
+                                        <Link to={`/product/${product.productID}`} className="rounded-xl transition-colors uppercase font-megante px-4 py-2 lg:px-6 lg:py-4 border-2 border-[#FED685] bg-[#FED685] hover:bg-transparent hover:text-[#131313] text-black text-sm"> view details </Link>
                                     </div>
                                 </div>
-                            </Link>
+                            </div>
                         ))}
                     </div>
                 </section>
