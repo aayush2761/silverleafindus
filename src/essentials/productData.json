@@ -1,74 +1,88 @@
 [
-  {
-    "productID": "mighty-horse",
-    "name": "Mighty Horse",
-    "price": 1499.00,
-    "images": [
-      "/productImages/12.jpg",
-      "/productImages/11.jpg",
-      "/productImages/13.jpg",
-      "/productImages/14.webp"
-    ],
-    "image1": "/productPictures/horse/horseOne.webp",
-    "image2": "/productPictures/horse/horseTwo.webp",
-    "image3": "/productPictures/horse/horseThree.webp",
-    "description": "High-performance Reebok shoes designed for optimal comfort and style. Perfect for running and everyday use.",
-    "reviews": {
-      "rating": 4.8,
-      "count": 42
-    },
-    "shipping_info": "Free delivery on orders over $30.0",
-    "features": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula neque sit amet nisl pharetra, non dictum turpis sollicitudin.",
-    "materials": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus, mi vel facilisis vehicula, risus nisl ullamcorper libero, ac scelerisque urna ex ac erat.",
-    "dimensions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique, augue non dapibus porttitor, eros turpis pulvinar est, eget dictum metus velit et lacus.",
-    "productCare": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Donec nec consequat ex, vitae fermentum nulla.",
-    "stylingTips": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis enim sit amet risus suscipit, a dictum nisi consectetur."
-  },
-  {
-    "productID": "the-celestial-eagle",
-    "name": "The Celestial Eagle",
-    "price": 1299.00,
-    "image1": "/productPictures/eagle/eagleOne.webp",
-    "images": [
-      "/productPictures/eagle/eagleOne.webp",
-      "/productPictures/eagle/eagleTwo.webp",
-      "/productPictures/eagle/eagleThree.webp",
-      "/productPictures/eagle/eagleFour.webp"
-    ],
-    "description": "High-performance Reebok shoes designed for optimal comfort and style. Perfect for running and everyday use.",
-    "reviews": {
-      "rating": 4.8,
-      "count": 42
-    },
-    "shipping_info": "Free delivery on orders over $30.0",
-    "features": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula neque sit amet nisl pharetra, non dictum turpis sollicitudin.",
-    "materials": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus, mi vel facilisis vehicula, risus nisl ullamcorper libero, ac scelerisque urna ex ac erat.",
-    "dimensions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique, augue non dapibus porttitor, eros turpis pulvinar est, eget dictum metus velit et lacus.",
-    "productCare": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Donec nec consequat ex, vitae fermentum nulla.",
-    "stylingTips": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis enim sit amet risus suscipit, a dictum nisi consectetur."
-  },
-  {
-    "productID": "sky-piercer-one",
-    "name": "Sky Piercer",
-    "price": 1399.00,
-    "image1": "/productPictures/skyPiercer/skyPiercerOne.webp",
-    "images": [
-      "/productPictures/skyPiercer/skyPiercerOne.webp",
-      "/productPictures/skyPiercer/skyPiercerTwo.webp",
-      "/productPictures/skyPiercer/skyPiercerThree.webp",
-      "/productPictures/skyPiercer/skyPiercerFour.webp"
-    ],
-   
-    "description": "High-performance Reebok shoes designed for optimal comfort and style. Perfect for running and everyday use.",
-    "reviews": {
-      "rating": 4.8,
-      "count": 42
-    },
-    "shipping_info": "Free delivery on orders over $30.0",
-    "features": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula neque sit amet nisl pharetra, non dictum turpis sollicitudin.",
-    "materials": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus, mi vel facilisis vehicula, risus nisl ullamcorper libero, ac scelerisque urna ex ac erat.",
-    "dimensions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique, augue non dapibus porttitor, eros turpis pulvinar est, eget dictum metus velit et lacus.",
-    "productCare": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Donec nec consequat ex, vitae fermentum nulla.",
-    "stylingTips": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis enim sit amet risus suscipit, a dictum nisi consectetur."
-  }
+	{
+		"productID": "mighty-horse",
+		"name": "Mighty Horse",
+		"price": 1499.00,
+		"images": [
+			"/productPictures/horse/horseOne.webp",
+			"/productPictures/horse/horseTwo.webp",
+			"/productPictures/horse/horseThree.webp"
+		],
+		"description": "High-performance Reebok shoes designed for optimal comfort and style. Perfect for running and everyday use.",
+		"reviews": {
+			"rating": 4.8,
+			"count": 42
+		},
+		"shipping_info": "Free delivery on orders over $30.0",
+		"features": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula neque sit amet nisl pharetra, non dictum turpis sollicitudin.",
+		"materials": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus, mi vel facilisis vehicula, risus nisl ullamcorper libero, ac scelerisque urna ex ac erat.",
+		"dimensions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique, augue non dapibus porttitor, eros turpis pulvinar est, eget dictum metus velit et lacus.",
+		"productCare": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Donec nec consequat ex, vitae fermentum nulla.",
+		"stylingTips": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis enim sit amet risus suscipit, a dictum nisi consectetur."
+	},
+	{
+		"productID": "the-celestial-eagle",
+		"name": "The Celestial Eagle",
+		"price": 1299.00,
+		"images": [
+			"/productPictures/eagle/eagleOne.webp",
+			"/productPictures/eagle/eagleTwo.webp",
+			"/productPictures/eagle/eagleThree.webp",
+			"/productPictures/eagle/eagleFour.webp"
+		],
+		"description": "High-performance Reebok shoes designed for optimal comfort and style. Perfect for running and everyday use.",
+		"reviews": {
+			"rating": 4.8,
+			"count": 42
+		},
+		"shipping_info": "Free delivery on orders over $30.0",
+		"features": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula neque sit amet nisl pharetra, non dictum turpis sollicitudin.",
+		"materials": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus, mi vel facilisis vehicula, risus nisl ullamcorper libero, ac scelerisque urna ex ac erat.",
+		"dimensions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique, augue non dapibus porttitor, eros turpis pulvinar est, eget dictum metus velit et lacus.",
+		"productCare": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Donec nec consequat ex, vitae fermentum nulla.",
+		"stylingTips": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis enim sit amet risus suscipit, a dictum nisi consectetur."
+	},
+	{
+		"productID": "sky-piercer-one",
+		"name": "Sky Piercer",
+		"price": 1399.00,
+		"images": [
+			"/productPictures/skyPiercer/skyPiercerOne.webp",
+			"/productPictures/skyPiercer/skyPiercerTwo.webp",
+			"/productPictures/skyPiercer/skyPiercerThree.webp",
+			"/productPictures/skyPiercer/skyPiercerFour.webp"
+		],
+		"description": "High-performance Reebok shoes designed for optimal comfort and style. Perfect for running and everyday use.",
+		"reviews": {
+			"rating": 4.8,
+			"count": 42
+		},
+		"shipping_info": "Free delivery on orders over $30.0",
+		"features": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula neque sit amet nisl pharetra, non dictum turpis sollicitudin.",
+		"materials": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus, mi vel facilisis vehicula, risus nisl ullamcorper libero, ac scelerisque urna ex ac erat.",
+		"dimensions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique, augue non dapibus porttitor, eros turpis pulvinar est, eget dictum metus velit et lacus.",
+		"productCare": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Donec nec consequat ex, vitae fermentum nulla.",
+		"stylingTips": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis enim sit amet risus suscipit, a dictum nisi consectetur."
+	},
+	{
+		"productID": "travel-bus",
+		"name": "Travel Bus",
+		"price": 1399.00,
+		"images": [
+			"/productPictures/travelBus/travelBusOne.webp",
+			"/productPictures/travelBus/travelBusTwo.webp",
+			"/productPictures/travelBus/travelBusThree.webp"
+		],
+		"description": "High-performance Reebok shoes designed for optimal comfort and style. Perfect for running and everyday use.",
+		"reviews": {
+			"rating": 4.8,
+			"count": 42
+		},
+		"shipping_info": "Free delivery on orders over $30.0",
+		"features": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula neque sit amet nisl pharetra, non dictum turpis sollicitudin.",
+		"materials": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus, mi vel facilisis vehicula, risus nisl ullamcorper libero, ac scelerisque urna ex ac erat.",
+		"dimensions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique, augue non dapibus porttitor, eros turpis pulvinar est, eget dictum metus velit et lacus.",
+		"productCare": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Donec nec consequat ex, vitae fermentum nulla.",
+		"stylingTips": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis enim sit amet risus suscipit, a dictum nisi consectetur."
+	}
 ]
