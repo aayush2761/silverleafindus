@@ -76,9 +76,9 @@ function Header() {
     
     return (
         <>
-            <div className={`fixed w-full h-[80px] flex flex-row justify-between items-center py-1 px-5 sm:px-14 transition-all ease-in-out ${scroll ? 'bg-white shadow-md' : ''}`}>
+            <div className={`fixed w-full h-[80px] z-10 flex flex-row justify-between items-center py-1 px-5 sm:px-14 transition-all ease-in-out ${scroll ? 'bg-white shadow-md' : ''}`}>
                 <button className="scale-50 lg:hidden" onClick={handleMenuClick}>
-                    <img src={MenuIcon} alt="Navigation Menu Icon" className="w-[50px] h-[50px]" />
+                    <img src={MenuIcon} alt="Navigation Menu Icon" className={`w-[50px] h-[50px] ${scroll ? '' : 'invert'}`} />
                 </button>
 
                 <section className="w-fit flex flex-row justify-center items-center gap-7">

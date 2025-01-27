@@ -57,6 +57,7 @@ function Footer() {
                     <p className="font-saudagar text-white text-md">
                         &copy; 2025 <a href="https://www.silverleafindus.vercel.app/" className='text-[#FED685] hover:text-emerald-300 transition-all ease-in-out'>SilverLeaf Indus.</a> | Where Every Artifact Whispers India’s Story. 🌿
                     </p>
+                    
                     <p className="font-saudagar text-white text-md">
                         Website Developed with ❤️ by <a href="" className='text-[#FED685] hover:text-green-400 transition-all ease-in-out'>TEAM BINARY BOTS</a>
                     </p>
