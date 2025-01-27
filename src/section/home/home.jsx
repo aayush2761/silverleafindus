@@ -1,7 +1,13 @@
+import TextureOne from '/texture/textureOne.jpg';
+
 function Home() {
     return (
         <>
-            <h1>HOME</h1>
+            <main className="">
+                <div className="w-full">
+                    <img src={TextureOne} alt="" className="w-full h-screen object-cover" />
+                </div>
+            </main>
         </>
     )
 }
