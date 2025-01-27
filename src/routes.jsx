@@ -10,7 +10,7 @@ function RoutesApp() {
 	return (
 		<Router>
 			<Header />
-			{/* <MainRoutes /> */}
+			<MainRoutes />
 			<Footer />
 		</Router>
 	);

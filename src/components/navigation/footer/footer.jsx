@@ -7,8 +7,8 @@ function Footer() {
         <div className="w-full h-fit bg-[#131313] text-white px-5 sm:px-20 py-10">
             <div className="w-full h-full px-4 flex flex-col items-center justify-between gap-10">
                 <div className="flex flex-col justify-center item-center gap-4 text-center">
-                    <h1 className="font-bugetaDream text-[#FED685] text-4xl sm:text-5xl transition-all ease-in-out">SilverLeaf Indus</h1>
-                    <h2 className="px-7 font-saudagar text-white text-md text-center transition-all ease-in-out">Crafting Timeless Stories from India's Heritage</h2>
+                    <h1 className="font-bugetaDream text-[#FED685] text-4xl sm:text-5xl xl:text-7xl transition-all ease-in-out">SilverLeaf Indus</h1>
+                    <h2 className="px-7 font-saudagar text-white text-md xl:text-2xl text-center transition-all ease-in-out">Crafting Timeless Stories from India's Heritage</h2>
                 </div>
 
                 <Link to="/" className='px-3 py-2 bg-[#FED685] text-xl text-[#131313] border-2 border-[#FED685] font-megante capitalize hover:bg-transparent hover:text-white transition-all ease-in-out'>
@@ -55,10 +55,10 @@ function Footer() {
 
                 <div className="w-full text-center flex flex-col gap-5 mt-5 xl:mt-0">
                     <p className="font-saudagar text-white text-md">
-                        &copy; 2025 <a href="https://www.silverleafindus.vercel.app/" className='text-[#FED685] hover:text-emerald-300'>SilverLeaf Indus.</a> | Where Every Artifact Whispers India’s Story. 🌿
+                        &copy; 2025 <a href="https://www.silverleafindus.vercel.app/" className='text-[#FED685] hover:text-emerald-300 transition-all ease-in-out'>SilverLeaf Indus.</a> | Where Every Artifact Whispers India’s Story. 🌿
                     </p>
                     <p className="font-saudagar text-white text-md">
-                        Website Developed with ❤️ by <a href="" className='text-[#FED685] hover:text-emerald-300'>BINARY BOTS</a>
+                        Website Developed with ❤️ by <a href="" className='text-[#FED685] hover:text-green-400 transition-all ease-in-out'>TEAM BINARY BOTS</a>
                     </p>
                 </div>
             </div>
