@@ -1,6 +1,6 @@
 [
   {
-    "productID": "1",
+    "productID": "mighty-horse",
     "name": "Mighty Horse",
     "price": 1499.00,
     "images": [
@@ -25,19 +25,16 @@
     "stylingTips": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis enim sit amet risus suscipit, a dictum nisi consectetur."
   },
   {
-    "productID": "2",
+    "productID": "the-celestial-eagle",
     "name": "The Celestial Eagle",
     "price": 1299.00,
-    "images": [
-      "/images/reebok_shoe1.jpg",
-      "/images/reebok_shoe2.jpg",
-      "/images/reebok_shoe3.jpg",
-      "/images/reebok_shoe4.jpg"
-    ],
     "image1": "/productPictures/eagle/eagleOne.webp",
-    "image2": "/productPictures/eagle/eagleTwo.webp",
-    "image3": "/productPictures/eagle/eagleThree.webp",
-    "image4": "/productPictures/eagle/eagleFour.webp",
+    "images": [
+      "/productPictures/eagle/eagleOne.webp",
+      "/productPictures/eagle/eagleTwo.webp",
+      "/productPictures/eagle/eagleThree.webp",
+      "/productPictures/eagle/eagleFour.webp"
+    ],
     "description": "High-performance Reebok shoes designed for optimal comfort and style. Perfect for running and everyday use.",
     "reviews": {
       "rating": 4.8,
@@ -51,19 +48,17 @@
     "stylingTips": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis enim sit amet risus suscipit, a dictum nisi consectetur."
   },
   {
-    "productID": "3",
+    "productID": "sky-piercer-one",
     "name": "Sky Piercer",
     "price": 1399.00,
-    "images": [
-      "/images/reebok_shoe1.jpg",
-      "/images/reebok_shoe2.jpg",
-      "/images/reebok_shoe3.jpg",
-      "/images/reebok_shoe4.jpg"
-    ],
     "image1": "/productPictures/skyPiercer/skyPiercerOne.webp",
-    "image2": "/productPictures/skyPiercer/skyPiercerTwo.webp",
-    "image3": "/productPictures/skyPiercer/skyPiercerThree.webp",
-    "image4": "/productPictures/skyPiercer/skyPiercerFour.webp",
+    "images": [
+      "/productPictures/skyPiercer/skyPiercerOne.webp",
+      "/productPictures/skyPiercer/skyPiercerTwo.webp",
+      "/productPictures/skyPiercer/skyPiercerThree.webp",
+      "/productPictures/skyPiercer/skyPiercerFour.webp"
+    ],
+   
     "description": "High-performance Reebok shoes designed for optimal comfort and style. Perfect for running and everyday use.",
     "reviews": {
       "rating": 4.8,

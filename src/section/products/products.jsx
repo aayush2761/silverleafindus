@@ -1,6 +1,8 @@
 import { useParams, useNavigate } from "react-router-dom";
 import { useEffect, useState } from "react";
 import products from "../../essentials/productData.json";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCircleArrowLeft, faCircleArrowRight } from "@fortawesome/free-solid-svg-icons";
 
 const ProductDetail = () => {
   const { productID } = useParams();
@@ -30,19 +32,19 @@ const ProductDetail = () => {
 
   if (loading) return <h2 className="text-center p-4">Loading...</h2>;
 
-  if (!product) {
-    return (
-      <div className="p-4 text-center">
-        <h2 className="text-2xl font-bold text-red-500">Product not found</h2>
-        <button
-          onClick={() => navigate("/products")}
-          className="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
-        >
-          Back to Products
-        </button>
-      </div>
-    );
-  }
+  // if (!product) {
+  //   return (
+  //     <div className="p-4 text-center">
+  //       <h2 className="text-2xl font-bold text-red-500">Product not found</h2>
+  //       <button
+  //         onClick={() => navigate("/")}
+  //         className="mt-4 bg-blue-500 text-white px-4 py-2 rounded hover:bg-blue-600 transition"
+  //       >
+  //         Back to Products
+  //       </button>
+  //     </div>
+  //   );
+  // }
 
   const toggleDropdown = (section) => {
     setDropdowns((prev) => ({
@@ -65,25 +67,20 @@ const ProductDetail = () => {
                 />
                 {/* Arrows */}
                 <button
-                    onClick={() =>
-                    setCurrentImageIndex(
-                        currentImageIndex === 0 ? product.images.length - 1 : currentImageIndex - 1
-                    )
-                    }
-                    className="absolute top-1/2 left-4 -translate-y-1/2 bg-white text-black p-2 rounded-full shadow-md opacity-0 group-hover:opacity-100 transition hover:bg-black hover:text-white"
-                >
-                    ◀
-                </button>
-                <button
-                    onClick={() =>
-                    setCurrentImageIndex(
-                        currentImageIndex === product.images.length - 1 ? 0 : currentImageIndex + 1
-                    )
-                    }
-                    className="absolute top-1/2 right-4 -translate-y-1/2 bg-white text-black p-2 rounded-full shadow-md opacity-0 group-hover:opacity-100 transition hover:bg-black hover:text-white"
-                >
-                    ▶
-                </button>
+                  onClick={() =>
+                      setCurrentImageIndex(
+                      currentImageIndex === 0 ? product.images.length - 1 : currentImageIndex - 1
+                      )
+                   }
+                  className="absolute top-1/2 left-4 -translate-y-1/2 bg-white text-black p-2 rounded-full shadow-md opacity-0 group-hover:opacity-100 transition hover:bg-black hover:text-white"
+                  >
+                  <FontAwesomeIcon icon={faCircleArrowLeft} />
+                  </button>
+
+                  <button onClick={() => setCurrentImageIndex(currentImageIndex === product.images.length - 1 ? 0 : currentImageIndex + 1)}
+                        className="absolute top-1/2 right-4 -translate-y-1/2 bg-white text-black p-2 rounded-full shadow-md opacity-0 group-hover:opacity-100 transition hover:bg-black hover:text-white">
+                        <FontAwesomeIcon icon={faCircleArrowRight} />
+                  </button>
                 <div className="flex mt-4 gap-2 justify-center">
                     {product.images.map((img, index) => (
                     <img
@@ -135,7 +132,7 @@ const ProductDetail = () => {
                     <div key={index} className="mb-2">
                     <button
                         onClick={() => toggleDropdown(label.toLowerCase().replace(" ", ""))}
-                        className="w-full flex justify-between items-center bg-[#d3a76a] p-3 rounded-lg shadow-md text-left text-sm md:text-base"
+                        className="w-full flex justify-between items-center bg-[#b7751f] p-3 rounded-lg shadow-md text-left text-sm md:text-base"
                     >
                         {label}
                         <span className="text-lg">
