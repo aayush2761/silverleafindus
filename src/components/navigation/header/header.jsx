@@ -119,14 +119,8 @@ function Header() {
                     </NavLink>
                 </section>
 
-                <section className="w-[50px] lg:w-[196px] flex flex-row justify-center lg:justify-end items-center">
-                    <img 
-                        src={userIcon} 
-                        alt="User Profile Icon" 
-                        className="w-[25px] h-[25px]"
-                        onMouseEnter={() => setUserIcon(UserFilledIcon)}
-                        onMouseLeave={() => setUserIcon(UserOutlineIcon)}
-                    />
+                <section className="w-[50px] lg:w-[196px] flex flex-row justify-center lg:justify-end items-center cursor-pointer">
+                    <img src={userIcon} alt="User Profile Icon" className="w-[25px] h-[25px]"onMouseEnter={() => setUserIcon(UserFilledIcon)}onMouseLeave={() => setUserIcon(UserOutlineIcon)} />
                 </section>
             </div>
 
