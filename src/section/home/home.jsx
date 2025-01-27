@@ -47,11 +47,11 @@ function Home() {
 
                     <div className="flex flex-wrap justify-center mt-10 sm:gap-4">
                         {ProductDetails.map((product) => (
-                            <Link to={`/product/${product.productID}`} key={product.productID} className="w-full xs:w-[80%] sm:w-[70%] md:w-[40%] max-w-[600px]">
+                            <Link to={`/product/${product.productID}`} key={product.productID} className="w-full xs:w-[80%] sm:w-[70%] md:w-[40%] max-w-[600px] hover:drop-shadow-lg">
                                 <div className='flex flex-col justify-center items-center mt-10'>
                                     <img src={product.images[0]} alt={product.name} className="w-full h-auto shadow-md" />
                                     <div className='w-full h-[75px] flex flex-row justify-between items-center'>
-                                        <h1 className='font-bugetaDream text-2xl text-[#131313] hover:text-slate-800'>{product.name}</h1>
+                                        <h1 className='w-full font-bugetaDream text-2xl text-center lg:text-start text-[#131313] hover:text-slate-800'>{product.name}</h1>
                                     </div>
                                 </div>
                             </Link>
