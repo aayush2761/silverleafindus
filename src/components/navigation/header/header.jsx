@@ -5,12 +5,15 @@ import UserOutlineIcon from '/icons/userOutlineIcon.png';
 import UserFilledIcon from '/icons/userFilledIcon.png';
 import MenuIcon from '/icons/menuIcon.png';
 import CloseIcon from '/icons/closeIcon.png';
+import Profile from '../../profile/profile.jsx';
 
 function Header() {
     const [userIcon, setUserIcon] = useState(UserOutlineIcon);
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [scroll, setScroll] = useState(false);
     const navigate = useNavigate();
+
+    const [profile, setProfile] = useState(false);
     
     const handleScroll = () => {
         if (window.scrollY > 5) {
@@ -100,6 +103,10 @@ function Header() {
         }
     }
 
+    const handleProfileClick = () => {
+        setProfile(true);
+    }
+
     return (
         <>
             <div className={`fixed w-full h-[80px] z-10 flex flex-row justify-between items-center py-1 px-5 sm:px-14 transition-all ease-in-out ${scroll ? 'bg-white shadow-xl' : ''}`}>
@@ -138,9 +145,19 @@ function Header() {
                 </section>
 
                 <section className="w-[50px] lg:w-[196px] flex flex-row justify-center lg:justify-end items-center cursor-pointer">
-                    <img src={userIcon} alt="User Profile Icon" className={`w-[25px] h-[25px] ${scroll ? "" : "invert"}`} onMouseEnter={() => setUserIcon(UserFilledIcon)} onMouseLeave={() => setUserIcon(UserOutlineIcon)}/>
+                    <button onClick={handleProfileClick}>
+                        <img 
+                            src={userIcon} 
+                            alt="User Profile Icon" 
+                            className={`w-[25px] h-[25px] ${scroll ? "" : "invert"}`} 
+                            onMouseEnter={() => setUserIcon(UserFilledIcon)} 
+                            onMouseLeave={() => setUserIcon(UserOutlineIcon)} 
+                        />
+                    </button>
                 </section>
             </div>
+
+            {profile && <Profile setProfile={setProfile}/>}
 
             {isMenuOpen && <NavigationPanel />}
         </>
