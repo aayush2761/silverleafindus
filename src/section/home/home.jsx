@@ -44,9 +44,9 @@ function Home() {
                         <span className='w-[200px] h-[2px] bg-[#131313] rounded-full'></span>
                     </div>
 
-                    <div className="flex flex-wrap justify-center mt-10">
+                    <div className="flex flex-wrap justify-center mt-10  sm:gap-4">
                         {ProductDetails.products.map((product) => (
-                            <div key={product.productID} className="w-full">
+                            <div key={product.productID} className="w-full xs:w-[80%] sm:w-[70%] md:w-[40%]">
                                 <img src={product.image1} alt={product.name} className="w-full h-auto mt-4" />
                             </div>
                         ))}

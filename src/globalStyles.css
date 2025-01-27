@@ -25,6 +25,7 @@
     --font-megante: megante;
     --font-saudagar: saudagar;
     --font-bugetaDream: bugetaDream;
+    --breakpoint-xs: 30rem;
 }
 
 @keyframes marquee {
