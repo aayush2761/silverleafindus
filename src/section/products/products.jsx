@@ -111,7 +111,7 @@ const ProductDetail = () => {
                 <span className="text-gray-600">({product.reviews.count} reviews)</span>
                 </div>
                 <p className="text-xl md:text-2xl font-semibold text-green-600 mt-4">
-                ${product.price.toFixed(2)}
+                {new Intl.NumberFormat("en-IN", { style: "currency", currency: "INR" }).format(product.price)}
                 </p>
                 <p className="text-sm md:text-base text-gray-500 mt-2">{product.description}</p>
 

@@ -2,7 +2,7 @@
   {
     "productID": "1",
     "name": "Mighty Horse",
-    "price": 199.00,
+    "price": 1499.00,
     "images": [
       "/productImages/12.jpg",
       "/productImages/11.jpg",
@@ -13,10 +13,6 @@
     "image2": "/productPictures/horse/horseTwo.webp",
     "image3": "/productPictures/horse/horseThree.webp",
     "description": "High-performance Reebok shoes designed for optimal comfort and style. Perfect for running and everyday use.",
-    "category": "Shoes",
-    "brand": "Reebok",
-    "colors": ["White", "Black"],
-    "sizes": [40.5, 41, 42, 43, 43.5, 44, 44.5, 45, 46],
     "reviews": {
       "rating": 4.8,
       "count": 42
@@ -31,7 +27,7 @@
   {
     "productID": "2",
     "name": "The Celestial Eagle",
-    "price": 299.00,
+    "price": 1299.00,
     "images": [
       "/images/reebok_shoe1.jpg",
       "/images/reebok_shoe2.jpg",
@@ -43,10 +39,6 @@
     "image3": "/productPictures/eagle/eagleThree.webp",
     "image4": "/productPictures/eagle/eagleFour.webp",
     "description": "High-performance Reebok shoes designed for optimal comfort and style. Perfect for running and everyday use.",
-    "category": "Shoes",
-    "brand": "Reebok",
-    "colors": ["White", "Black"],
-    "sizes": [40.5, 41, 42, 43, 43.5, 44, 44.5, 45, 46],
     "reviews": {
       "rating": 4.8,
       "count": 42
@@ -61,7 +53,7 @@
   {
     "productID": "3",
     "name": "Sky Piercer",
-    "price": 399.00,
+    "price": 1399.00,
     "images": [
       "/images/reebok_shoe1.jpg",
       "/images/reebok_shoe2.jpg",
@@ -73,10 +65,6 @@
     "image3": "/productPictures/skyPiercer/skyPiercerThree.webp",
     "image4": "/productPictures/skyPiercer/skyPiercerFour.webp",
     "description": "High-performance Reebok shoes designed for optimal comfort and style. Perfect for running and everyday use.",
-    "category": "Shoes",
-    "brand": "Reebok",
-    "colors": ["White", "Black"],
-    "sizes": [40.5, 41, 42, 43, 43.5, 44, 44.5, 45, 46],
     "reviews": {
       "rating": 4.8,
       "count": 42

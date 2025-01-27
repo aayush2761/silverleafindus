@@ -51,9 +51,7 @@ function Home() {
                     <div className="flex flex-wrap justify-center mt-10 sm:gap-4">
                         {ProductDetails.map((product) => (
                             <Link to={`/product/${product.productID}`} key={product.productID} className="w-full xs:w-[80%] sm:w-[70%] md:w-[40%] p-2">
-                                <img src={product.image1} alt={product.name} className="w-full h-auto mt-4 rounded-lg shadow-md" />
-                                <h2 className="text-center text-xl font-semibold mt-2">{product.name}</h2>
-                                <p className="text-center text-lg font-medium text-gray-700">${product.price}</p>
+                                <img src={product.image1} alt={product.name} className="w-full h-auto mt-4 rounded-lg shadow-md" />                 
                             </Link>
                         ))}
                     </div>
