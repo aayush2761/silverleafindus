@@ -1,0 +1,91 @@
+[
+  {
+    "productID": "1",
+    "name": "Mighty Horse",
+    "price": 199.00,
+    "images": [
+      "/productImages/12.jpg",
+      "/productImages/11.jpg",
+      "/productImages/13.jpg",
+      "/productImages/14.webp"
+    ],
+    "image1": "/productPictures/horse/horseOne.webp",
+    "image2": "/productPictures/horse/horseTwo.webp",
+    "image3": "/productPictures/horse/horseThree.webp",
+    "description": "High-performance Reebok shoes designed for optimal comfort and style. Perfect for running and everyday use.",
+    "category": "Shoes",
+    "brand": "Reebok",
+    "colors": ["White", "Black"],
+    "sizes": [40.5, 41, 42, 43, 43.5, 44, 44.5, 45, 46],
+    "reviews": {
+      "rating": 4.8,
+      "count": 42
+    },
+    "shipping_info": "Free delivery on orders over $30.0",
+    "features": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula neque sit amet nisl pharetra, non dictum turpis sollicitudin.",
+    "materials": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus, mi vel facilisis vehicula, risus nisl ullamcorper libero, ac scelerisque urna ex ac erat.",
+    "dimensions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique, augue non dapibus porttitor, eros turpis pulvinar est, eget dictum metus velit et lacus.",
+    "productCare": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Donec nec consequat ex, vitae fermentum nulla.",
+    "stylingTips": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis enim sit amet risus suscipit, a dictum nisi consectetur."
+  },
+  {
+    "productID": "2",
+    "name": "The Celestial Eagle",
+    "price": 299.00,
+    "images": [
+      "/images/reebok_shoe1.jpg",
+      "/images/reebok_shoe2.jpg",
+      "/images/reebok_shoe3.jpg",
+      "/images/reebok_shoe4.jpg"
+    ],
+    "image1": "/productPictures/eagle/eagleOne.webp",
+    "image2": "/productPictures/eagle/eagleTwo.webp",
+    "image3": "/productPictures/eagle/eagleThree.webp",
+    "image4": "/productPictures/eagle/eagleFour.webp",
+    "description": "High-performance Reebok shoes designed for optimal comfort and style. Perfect for running and everyday use.",
+    "category": "Shoes",
+    "brand": "Reebok",
+    "colors": ["White", "Black"],
+    "sizes": [40.5, 41, 42, 43, 43.5, 44, 44.5, 45, 46],
+    "reviews": {
+      "rating": 4.8,
+      "count": 42
+    },
+    "shipping_info": "Free delivery on orders over $30.0",
+    "features": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula neque sit amet nisl pharetra, non dictum turpis sollicitudin.",
+    "materials": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus, mi vel facilisis vehicula, risus nisl ullamcorper libero, ac scelerisque urna ex ac erat.",
+    "dimensions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique, augue non dapibus porttitor, eros turpis pulvinar est, eget dictum metus velit et lacus.",
+    "productCare": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Donec nec consequat ex, vitae fermentum nulla.",
+    "stylingTips": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis enim sit amet risus suscipit, a dictum nisi consectetur."
+  },
+  {
+    "productID": "3",
+    "name": "Sky Piercer",
+    "price": 399.00,
+    "images": [
+      "/images/reebok_shoe1.jpg",
+      "/images/reebok_shoe2.jpg",
+      "/images/reebok_shoe3.jpg",
+      "/images/reebok_shoe4.jpg"
+    ],
+    "image1": "/productPictures/skyPiercer/skyPiercerOne.webp",
+    "image2": "/productPictures/skyPiercer/skyPiercerTwo.webp",
+    "image3": "/productPictures/skyPiercer/skyPiercerThree.webp",
+    "image4": "/productPictures/skyPiercer/skyPiercerFour.webp",
+    "description": "High-performance Reebok shoes designed for optimal comfort and style. Perfect for running and everyday use.",
+    "category": "Shoes",
+    "brand": "Reebok",
+    "colors": ["White", "Black"],
+    "sizes": [40.5, 41, 42, 43, 43.5, 44, 44.5, 45, 46],
+    "reviews": {
+      "rating": 4.8,
+      "count": 42
+    },
+    "shipping_info": "Free delivery on orders over $30.0",
+    "features": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vehicula neque sit amet nisl pharetra, non dictum turpis sollicitudin.",
+    "materials": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed dapibus, mi vel facilisis vehicula, risus nisl ullamcorper libero, ac scelerisque urna ex ac erat.",
+    "dimensions": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tristique, augue non dapibus porttitor, eros turpis pulvinar est, eget dictum metus velit et lacus.",
+    "productCare": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse potenti. Donec nec consequat ex, vitae fermentum nulla.",
+    "stylingTips": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras venenatis enim sit amet risus suscipit, a dictum nisi consectetur."
+  }
+]
