@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Sparsh Jaggi",
+        "role": "AI/ML Developer",
+        "description": "AI/ML developer, implementing advanced AI models for document analysis and verification. Sparsh's contributions in computer vision enable precise document checks, automating verification steps.",
+        "img": "/teamMembers/sparshImg.jpeg",
+        "socialLinks": [
+            { "url": "https://www.instagram.com/sparshjaggi/", "icon": "instagram" },
+            { "url": "https://www.linkedin.com/in/sparsh-jaggi-1aa263257/", "icon": "linkedIn" }
+        ]
+    },
+    {
+        "name": "Aayush Gupta",
+        "role": "Full Stack Developer",
+        "description": "Full Stack developer, managing core workflows and essential user features. Aayush's contributions ensure that checkMate operates smoothly, providing a cohesive and efficient experience for document management.",
+        "img": "/teamMembers/aayushImg.jpg",
+        "socialLinks": [
+            { "url": "https://www.instagram.com/_.aayush.gupta._/", "icon": "instagram" },
+            { "url": "https://www.linkedin.com/in/aayush-gupta-020284263/", "icon": "linkedIn" }
+        ]
+    }
+]

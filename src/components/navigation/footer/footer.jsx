@@ -1,8 +1,19 @@
-import { Link } from 'react-router-dom';
-import Logo from '/logo.png';
+import { Link, NavLink } from 'react-router-dom';
 import { FaFacebook, FaTwitter, FaInstagram, FaLinkedin } from 'react-icons/fa';
 
 function Footer() {
+    const handleHomeClick = () => {
+        const element = document.getElementById("home");
+        if (element) {
+            const offset = 80;
+            const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
+            window.scrollTo({
+                top: elementPosition - offset,
+                behavior: "smooth"
+            });
+        }
+    };
+
     return (
         <div className="w-full h-fit bg-[#131313] text-white px-5 sm:px-20 py-10">
             <div className="w-full h-full px-4 flex flex-col items-center justify-between gap-10">
@@ -11,9 +22,9 @@ function Footer() {
                     <h2 className="px-7 font-saudagar text-white text-md xl:text-2xl text-center transition-all ease-in-out">Crafting Timeless Stories from India's Heritage</h2>
                 </div>
 
-                <Link to="/" className='px-3 py-2 bg-[#FED685] text-xl text-[#131313] border-2 border-[#FED685] font-megante capitalize hover:bg-transparent hover:text-white transition-all ease-in-out'>
+                <NavLink onClick={handleHomeClick} className='px-3 py-2 bg-[#FED685] text-xl text-[#131313] border-2 border-[#FED685] font-megante capitalize hover:bg-transparent hover:text-white transition-all ease-in-out'>
                     explore more
-                </Link>
+                </NavLink>
 
                 <div className='w-full mt-5 xl:my-5 h-fit flex flex-col 2xl:flex-row-reverse justify-between item-center gap-7 transition-all ease-in-out'>
                     <div className='flex flex-col xl:flex-row xl:gap-16 justify-center items-center gap-7'>
