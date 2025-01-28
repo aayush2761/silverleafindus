@@ -13,12 +13,15 @@
 			"rating": 4.8,
 			"count": 42
 		},
+		"category": "Artifact",
+		"brand": "SilverLeaf Indus",
 		"shipping_info": "Free delivery on orders over $50. Secure packaging to prevent damage during transit.",
 		"features": "Exquisite handcrafted design, rich metallic black finish, durable and timeless craftsmanship.",
 		"materials": "Premium-grade black metallic alloy with an anti-corrosion finish.",
 		"dimensions": "Height: 12 inches, Width: 8 inches, Depth: 4 inches.",
 		"productCare": "Wipe with a soft, dry cloth. Avoid using harsh chemicals or abrasives to maintain the finish.",
-		"stylingTips": "Display it on a console table or shelf with other Indian artifacts to create a striking cultural theme."
+		"stylingTips": "Display it on a console table or shelf with other Indian artifacts to create a striking cultural theme.",
+		"link": ""
 	},
 	{
 		"productID": "the-celestial-eagle",
@@ -35,12 +38,15 @@
 			"rating": 4.7,
 			"count": 36
 		},
+		"category": "Artifact",
+		"brand": "SilverLeaf Indus",
 		"shipping_info": "Free delivery on orders over $50. Carefully packed to ensure it arrives in pristine condition.",
 		"features": "Intricate detailing on feathers and base, lustrous metallic finish, handcrafted by skilled artisans.",
 		"materials": "High-quality metallic alloy with a polished finish.",
 		"dimensions": "Height: 10 inches, Width: 6 inches, Depth: 5 inches.",
 		"productCare": "Clean with a soft, dry cloth. Keep away from moisture to prevent tarnishing.",
-		"stylingTips": "Pair with modern or rustic decor for a bold centerpiece on a mantel or sideboard."
+		"stylingTips": "Pair with modern or rustic decor for a bold centerpiece on a mantel or sideboard.",
+		"link": "https://www.amazon.in/"
 	},
 	{
 		"productID": "sky-piercer-one",
@@ -62,7 +68,8 @@
 		"materials": "Premium metallic alloy treated with anti-corrosion properties.",
 		"dimensions": "Height: 15 inches, Width: 10 inches, Depth: 6 inches.",
 		"productCare": "Dust regularly with a dry cloth. Avoid contact with water or direct sunlight to preserve its finish.",
-		"stylingTips": "Place near a light source to highlight its sheen and create an eye-catching display."
+		"stylingTips": "Place near a light source to highlight its sheen and create an eye-catching display.",
+		"link": "https://www.amazon.in/"
 	},
 	{
 		"productID": "travel-bus",
@@ -78,11 +85,14 @@
 			"rating": 4.6,
 			"count": 30
 		},
+		"category": "Artifact",
+		"brand": "SilverLeaf Indus",
 		"shipping_info": "Free delivery on orders over $50. Shipped in secure packaging for protection.",
 		"features": "Detailed retro design, metallic finish with a hint of patina, robust craftsmanship.",
 		"materials": "Metallic alloy with a semi-gloss antique finish.",
 		"dimensions": "Height: 8 inches, Width: 12 inches, Depth: 5 inches.",
 		"productCare": "Wipe gently with a dry cloth. Avoid using water or harsh cleaning agents.",
-		"stylingTips": "Display on a coffee table or bookshelf for a nostalgic and cultural touch."
+		"stylingTips": "Display on a coffee table or bookshelf for a nostalgic and cultural touch.",
+		"link": "https://www.amazon.in/"
 	}
 ]
