@@ -17,9 +17,10 @@ function Header() {
 
     const { loginWithRedirect, logout, isAuthenticated } = useAuth0();
 
+    
     const navigate = useNavigate();
     const location = useLocation();
-
+    
     const handleScroll = () => {
         if (window.scrollY > 5) {
             setScroll(true);
@@ -27,17 +28,17 @@ function Header() {
             setScroll(false);
         }
     };
-
+    
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
         return () => {
             window.removeEventListener('scroll', handleScroll);
         };
     }, []);
-
+    
     const handleMenuClick = () => setIsMenuOpen(true);
     const handleLinkClick = () => setIsMenuOpen(false);
-
+    
     const handleProfileClick = () => {
         if(isAuthenticated){
             setProfile(true);
@@ -45,10 +46,11 @@ function Header() {
             loginWithRedirect();
         }
     }
-
+    
     const isHome = location.pathname === '/';
-    const headerBackground = isHome && !scroll ? 'bg-transparent' : 'bg-white shadow-xl';
-
+    const headerBackground = isHome && !scroll ? 'bg-transparent' : 'bg-white';
+    const headerShadow = scroll ? 'shadow-xl' : '';
+    
     const handleHomeClick = () => {
         setIsMenuOpen(false);
         const element = document.getElementById("home");
@@ -59,7 +61,7 @@ function Header() {
             });
         }
     };
-
+    
     const handleProductClick = () => {
         setIsMenuOpen(false);
         navigate('/');
@@ -73,7 +75,7 @@ function Header() {
             });
         }
     };
-
+    
     const handleAboutClick = () => {
         setIsMenuOpen(false);
         navigate('/');
@@ -116,7 +118,7 @@ function Header() {
 
     return (
         <>
-            <div className={`fixed w-full h-[80px] z-10 flex flex-row justify-between items-center py-1 px-5 sm:px-14 transition-all ease-in-out ${headerBackground}`}>
+            <div className={`fixed w-full h-[80px] z-10 flex flex-row justify-between items-center py-1 px-5 sm:px-14 transition-all ease-in-out ${headerBackground} ${headerShadow}`}>
                 <button className="scale-50 lg:hidden" onClick={handleMenuClick}>
                     <img src={MenuIcon} alt="Navigation Menu Icon" className={`w-[50px] h-[50px] ${scroll || !isHome ? '' : 'invert'}`} />
                 </button>
