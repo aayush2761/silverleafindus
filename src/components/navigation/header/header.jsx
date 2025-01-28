@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, NavLink, useNavigate, useLocation } from "react-router-dom";
+import { useAuth0 } from "@auth0/auth0-react";
+
 import Logo from '/logo.png';
 import UserOutlineIcon from '/icons/userOutlineIcon.png';
 import UserFilledIcon from '/icons/userFilledIcon.png';
@@ -12,6 +14,8 @@ function Header() {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [scroll, setScroll] = useState(false);
     const [profile, setProfile] = useState(false);
+
+    const { loginWithRedirect, logout, isAuthenticated } = useAuth0();
 
     const navigate = useNavigate();
     const location = useLocation();
@@ -33,7 +37,14 @@ function Header() {
 
     const handleMenuClick = () => setIsMenuOpen(true);
     const handleLinkClick = () => setIsMenuOpen(false);
-    const handleProfileClick = () => setProfile(true);
+
+    const handleProfileClick = () => {
+        if(isAuthenticated){
+            setProfile(true);
+        } else {
+            loginWithRedirect();
+        }
+    }
 
     const isHome = location.pathname === '/';
     const headerBackground = isHome && !scroll ? 'bg-transparent' : 'bg-white shadow-xl';
@@ -141,14 +152,30 @@ function Header() {
                     </NavLink>
                 </section>
 
-                <section className="w-[50px] lg:w-[196px] flex flex-row justify-center lg:justify-end items-center">
-                    <button onClick={handleProfileClick} className="hover:cursor-pointer">
+                <section className="w-[50px] lg:w-[196px] flex flex-row justify-center lg:justify-end items-center gap-7">
+                    <button onClick={handleProfileClick} className="hover:cursor-pointer" >
                         <img src={userIcon} alt="User Profile Icon" className={`w-[25px] h-[25px] ${scroll || !isHome ? "" : "invert"}`} onMouseEnter={() => setUserIcon(UserFilledIcon)} onMouseLeave={() => setUserIcon(UserOutlineIcon)} />
                     </button>
+
+                    <div className="hidden lg:block">
+                        {!isAuthenticated && 
+                            <button onClick={() => loginWithRedirect()} className={`font-megante relative group hover:text-yellow-500 transition-all ease-in-out hover:cursor-pointer ${scroll || !isHome ? "text-[#131313]" : "text-white"}`}>
+                                Sign In
+                                <span className={`absolute left-0 bottom-0 w-0 h-[1px] bg-yellow-500 transition-all duration-600 group-hover:w-full`}></span>
+                            </button>
+                        }
+
+                        {isAuthenticated && 
+                            <button onClick={() => logout({ logoutParams: { returnTo: window.location.origin } })} className={`font-megante relative group hover:cursor-pointer hover:text-red-400 transition-all ease-in-out ${scroll || !isHome ? "text-rose-400 hover:text-rose-700" : "text-white"}`}>
+                                Log Out
+                                <span className={`absolute left-0 bottom-0 w-0 h-[1px] ${scroll ? "bg-red-700" : "bg-rose-400"} transition-all duration-600 group-hover:w-full`}></span>
+                            </button>
+                        }
+                    </div>
                 </section>
             </div>
 
-            {profile && <Profile setProfile={setProfile} />}
+            {profile && <Profile profile={profile} setProfile={setProfile} />}
 
             {isMenuOpen && <NavigationPanel />}
         </>
