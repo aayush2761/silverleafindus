@@ -5,6 +5,7 @@ import Home from "./section/home/home";
 import Product from "./section/products/products";
 import Contact from "./section/contact/contact";
 import Footer from "./components/navigation/footer/footer";
+import Profile from "./section/profile/profile";
 
 function RoutesApp() {
 	return (
@@ -21,6 +22,7 @@ function MainRoutes() {
 		<Routes>
 			<Route path="/" element={<Home />} />
 			<Route path="/product/:productID" element={<Product />} />
+			<Route path="/profile" element={<Profile />}/>
 			<Route path="/contact" element={<Contact />}/>
 		</Routes>
 	);

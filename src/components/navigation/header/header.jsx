@@ -7,7 +7,7 @@ import UserOutlineIcon from '/icons/userOutlineIcon.png';
 import UserFilledIcon from '/icons/userFilledIcon.png';
 import MenuIcon from '/icons/menuIcon.png';
 import CloseIcon from '/icons/closeIcon.png';
-import Profile from '../../profile/profile.jsx';
+import ProfileNavPanel from '../../profileNavPanel/profilePanel';
 
 function Header() {
     const [userIcon, setUserIcon] = useState(UserOutlineIcon);
@@ -177,7 +177,7 @@ function Header() {
                 </section>
             </div>
 
-            {profile && <Profile profile={profile} setProfile={setProfile} />}
+            {profile && <ProfileNavPanel profile={profile} setProfile={setProfile} />}
 
             {isMenuOpen && <NavigationPanel />}
         </>
