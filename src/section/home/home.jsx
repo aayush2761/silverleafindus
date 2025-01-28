@@ -74,7 +74,7 @@ function Home() {
                     <div className='w-full h-[125px] bg-[#131313] flex flex-row justify-center items-center'>
                         <h1 className='text-[#FED685] font-bugetaDream text-6xl uppercase mt-4'>About Us</h1>
                     </div>
-                    <div className='px-5 py-10 xs:px-16 lg:px-24 xl:px-28 2xl:px-44'>
+                    <div className='px-8 py-10 xs:px-16 lg:px-24 xl:px-28 2xl:px-44'>
                         <h2 className='text-5xl font-megante text-gray-800 mb-6'>Welcome to Silverleaf Indus</h2>
                         <p className='text-gray-600 text-xl font-saudagar leading-8 mb-4'>
                             At Silverleaf Indus, we are passionate about preserving and sharing the rich heritage of Indian artistry. Our carefully curated collection includes stunning Indian artifacts that celebrate the craftsmanship and traditions passed down through generations. From exquisite metallic horses to intricately designed boats, each piece tells a unique story of artistry and culture.
@@ -88,7 +88,6 @@ function Home() {
                         <div className='w-full flex flex-col lg:flex-row justify-evenly items-center mt-10 lg:mt-20 gap-10'>
                             <button className='font-megante px-10 py-4 bg-[#131313] border-2 border-[#131313] text-[#FED685] hover:bg-transparent hover:text-[#131313] transition-all ease-in-out capitalize hover:cursor-pointer'>join us</button>
                             <button className='font-megante px-10 py-4 bg-[#131313] border-2 border-[#131313] text-[#FED685] hover:bg-transparent hover:text-[#131313] transition-all ease-in-out capitalize hover:cursor-pointer'>shop now</button>
-                            <button className='font-megante px-10 py-4 bg-[#131313] border-2 border-[#131313] text-[#FED685] hover:bg-transparent hover:text-[#131313] transition-all ease-in-out capitalize hover:cursor-pointer'>meet the team</button>
                         </div>
                     </div>
                 </section>
