@@ -141,15 +141,9 @@ function Header() {
                     </NavLink>
                 </section>
 
-                <section className="w-[50px] lg:w-[196px] flex flex-row justify-center lg:justify-end items-center cursor-pointer">
-                    <button onClick={handleProfileClick}>
-                        <img
-                            src={userIcon}
-                            alt="User Profile Icon"
-                            className={`w-[25px] h-[25px] ${scroll || !isHome ? "" : "invert"}`}
-                            onMouseEnter={() => setUserIcon(UserFilledIcon)}
-                            onMouseLeave={() => setUserIcon(UserOutlineIcon)}
-                        />
+                <section className="w-[50px] lg:w-[196px] flex flex-row justify-center lg:justify-end items-center">
+                    <button onClick={handleProfileClick} className="hover:cursor-pointer">
+                        <img src={userIcon} alt="User Profile Icon" className={`w-[25px] h-[25px] ${scroll || !isHome ? "" : "invert"}`} onMouseEnter={() => setUserIcon(UserFilledIcon)} onMouseLeave={() => setUserIcon(UserOutlineIcon)} />
                     </button>
                 </section>
             </div>
