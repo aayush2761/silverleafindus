@@ -2,6 +2,7 @@ import React, { useState } from 'react'
 import { useAuth0 } from '@auth0/auth0-react';
 import Logo from '/logo.png';
 import CloseButton from '/icons/closeIcon.png';
+import UserProfile from './userProfile';
 
 function Profile({profile, setProfile}) {
     const {isAuthenticated, logout} = useAuth0();
@@ -34,12 +35,7 @@ function Profile({profile, setProfile}) {
                 </div>
             }
 
-            {profilePanel && 
-                <div className='fixed flex flex-col justify-center items-center w-full h-screen right-0 bg-white text-black z-10 gap-6'>
-                    PROFILE
-                    <button onClick={handleClose} className='text-2xl font-megante capitalize text-rose-500'> close </button>
-                </div>
-            }
+            {profilePanel && <UserProfile handleClose={handleClose} />}
 
         </>
     )
