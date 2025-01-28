@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link, NavLink, useNavigate, useLocation } from "react-router-dom";
+import { Link, useNavigate, useLocation } from "react-router-dom";
 import { useAuth0 } from "@auth0/auth0-react";
 
 import Logo from '/logo.png';
@@ -93,22 +93,22 @@ function Header() {
     const NavigationPanel = () => {
         return (
             <div className="fixed top-0 left-0 w-full h-full bg-white z-50 flex flex-col items-center justify-center space-y-6">
-                <NavLink to="/" onClick={handleLinkClick} className="text-2xl font-megante text-black" >
+                <Link to="/" onClick={handleLinkClick} className="text-2xl font-megante text-black" >
                     Home
-                </NavLink>
+                </Link>
 
-                <NavLink NavLink to="/" onClick={handleProductClick} className="text-2xl font-megante text-black" >
+                <Link to="/" onClick={handleProductClick} className="text-2xl font-megante text-black" >
                     Products
-                </NavLink>
+                </Link>
 
-                <NavLink to="/" onClick={handleAboutClick} className="text-2xl font-megante text-black" >
+                <Link to="/" onClick={handleAboutClick} className="text-2xl font-megante text-black" >
                     About Us
-                </NavLink>
+                </Link>
 
-                <NavLink to="/contact" onClick={handleLinkClick} className="text-2xl font-megante text-black" >
+                <Link to="/contact" onClick={handleLinkClick} className="text-2xl font-megante text-black" >
                     Contact Us
-                </NavLink>
-    
+                </Link>
+
                 <button onClick={() => setIsMenuOpen(false)} className="absolute top-4 right-4">
                     <img src={CloseIcon} alt="Close Menu" className="w-[30px] h-[30px]" />
                 </button>
@@ -133,25 +133,25 @@ function Header() {
                 </section>
 
                 <section className="hidden lg:flex flex-row justify-center items-center gap-10">
-                    <NavLink to="/" onClick={handleHomeClick} className={`font-megante relative group ${scroll || !isHome ? "text-black" : "text-white"}`} >
+                    <Link to="/" onClick={handleHomeClick} className={`font-megante relative group ${scroll || !isHome ? "text-black" : "text-white"}`} >
                         <span>Home</span>
                         <span className={`absolute left-0 bottom-0 w-0 h-[1px] ${scroll ? "bg-black" : "bg-white"} transition-all duration-300 group-hover:w-full`}></span>
-                    </NavLink>
+                    </Link>
 
-                    <NavLink to="/" onClick={handleProductClick} className={`font-megante relative group ${scroll || !isHome ? "text-black" : "text-white"}`} >
+                    <Link to="/" onClick={handleProductClick} className={`font-megante relative group ${scroll || !isHome ? "text-black" : "text-white"}`} >
                         <span>Products</span>
                         <span className={`absolute left-0 bottom-0 w-0 h-[1px] ${scroll ? "bg-black" : "bg-white"} transition-all duration-300 group-hover:w-full`}></span>
-                    </NavLink>
+                    </Link>
 
-                    <NavLink to="/" onClick={handleAboutClick} className={`font-megante relative group ${scroll || !isHome ? "text-black" : "text-white"}`} >
+                    <Link to="/" onClick={handleAboutClick} className={`font-megante relative group ${scroll || !isHome ? "text-black" : "text-white"}`} >
                         <span>About Us</span>
                         <span className={`absolute left-0 bottom-0 w-0 h-[1px] ${scroll ? "bg-black" : "bg-white"} transition-all duration-300 group-hover:w-full`}></span>
-                    </NavLink>
+                    </Link>
 
-                    <NavLink to="/contact" onClick={handleLinkClick} className={`font-megante relative group ${scroll || !isHome ? "text-black" : "text-white"}`}>
+                    <Link to="/contact" onClick={handleLinkClick} className={`font-megante relative group ${scroll || !isHome ? "text-black" : "text-white"}`}>
                         <span>Contact Us</span>
                         <span className={`absolute left-0 bottom-0 w-0 h-[1px] ${scroll ? "bg-black" : "bg-white"} transition-all duration-300 group-hover:w-full`}></span>
-                    </NavLink>
+                    </Link>
                 </section>
 
                 <section className="w-[50px] lg:w-[196px] flex flex-row justify-center lg:justify-end items-center gap-7">

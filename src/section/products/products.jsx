@@ -7,12 +7,13 @@ import { ChevronDown } from "lucide-react";
 
 const ProductDetail = () => {
 	const { productID } = useParams();
-	const navigate = useNavigate();
 	const [product, setProduct] = useState(null);
 	const [loading, setLoading] = useState(true);
 	const [currentImageIndex, setCurrentImageIndex] = useState(0);
 	const [openSection, setOpenSection] = useState(null);
-
+	
+	const navigate = useNavigate();
+	
 	useEffect(() => {
 		const fetchProduct = () => {
 			setLoading(true);
@@ -44,7 +45,7 @@ const ProductDetail = () => {
 
 	return (
 		<>
-			<main className="relative">
+			<main className="relative pt-[50px]">
 				<div className="relative grid grid-cols-1 lg:grid-cols-2 gap-6 mx-5 xs:mx-14 transition-all ease-in-out">
 					<div className="w-full max-h-[calc(100vh-2rem)] mt-20">
 						<div className="relative group flex flex-col justify-center items-center mt-10 lg:mt-5 mb-10">
