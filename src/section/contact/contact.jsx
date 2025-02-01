@@ -9,6 +9,7 @@ function Contact() {
         lastName: "",
         email: "",
         phoneNumber: "",
+        countryCode: "+91",
         message: "",
     });
 
@@ -16,19 +17,57 @@ function Contact() {
 
     const [submitted, setSubmitted] = useState(false);
     const [openFAQ, setOpenFAQ] = useState(null);
+    const [isLoading, setIsLoading] = useState(false);
+    const [error, setError] = useState(null);
 
     const handleInputChange = (e) => {
         const { name, value } = e.target;
-        setFormData({
-            ...formData,
-            [name]: value,
-        });
+        if (name === "phoneNumber") {
+            const numericValue = value.replace(/\D/g, '');
+            setFormData({
+                ...formData,
+                [name]: numericValue,
+            });
+        } else {
+            setFormData({
+                ...formData,
+                [name]: value,
+            });
+        }
     };
 
-    const handleSubmit = (e) => {
+    const handleSubmit = async (e) => {
         e.preventDefault();
-        console.log("Form Data Submitted:", formData);
-        setSubmitted(true);
+        setIsLoading(true);
+        setError(null);
+        
+        try {
+            const response = await fetch('https://silverleaf-server-1.onrender.com/api/contact', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify(formData)
+            });
+
+            if (!response.ok) {
+                throw new Error('Failed to submit form');
+            }
+
+            setSubmitted(true);
+            setFormData({
+                firstName: "",
+                lastName: "",
+                email: "",
+                phoneNumber: "",
+                countryCode: "+91",
+                message: "",
+            });
+        } catch (err) {
+            setError('Failed to submit form. Please try again.');
+        } finally {
+            setIsLoading(false);
+        }
     };
 
     const toggleFAQ = (index) => {
@@ -53,11 +92,23 @@ function Contact() {
                         </div>
 
                         <div className="flex items-center border border-gray-300 p-3">
-                            <select name="countryCode" className="outline-none bg-transparent text-gray-500 mr-2" >
+                            <select 
+                                name="countryCode" 
+                                value={formData.countryCode}
+                                onChange={handleInputChange}
+                                className="outline-none bg-transparent text-gray-500 mr-2"
+                            >
                                 <option value="+91">+91</option>
                                 <option value="+1">+1</option>
                             </select>
-                            <input type="text" name="phoneNumber" placeholder="Phone number" value={formData.phoneNumber} onChange={handleInputChange} className="w-full font-megante lowercase outline-none focus:ring-0" />
+                            <input 
+                                type="tel" 
+                                name="phoneNumber" 
+                                placeholder="Phone number" 
+                                value={formData.phoneNumber} 
+                                onChange={handleInputChange} 
+                                className="w-full font-megante outline-none focus:ring-0" 
+                            />
                         </div>
 
                         <div>
@@ -67,8 +118,16 @@ function Contact() {
                             </div>
                         </div>
 
-                        <button type="submit" className="w-full bg-[#FED685] capitalize font-megante text-[#131313] hover:bg-amber-300 hover:cursor-pointer font-medium py-3 transition-all duration-300" >
-                            submit
+                        {error && (
+                            <p className="text-red-500 text-sm">{error}</p>
+                        )}
+
+                        <button 
+                            type="submit" 
+                            disabled={isLoading}
+                            className="w-full bg-[#FED685] capitalize font-megante text-[#131313] hover:bg-amber-300 hover:cursor-pointer font-medium py-3 transition-all duration-300 disabled:opacity-50"
+                        >
+                            {isLoading ? "Submitting..." : "Submit"}
                         </button>
                     </form>
 
