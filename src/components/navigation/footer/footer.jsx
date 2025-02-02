@@ -70,7 +70,7 @@ function Footer() {
                     </p>
                     
                     <p className="font-saudagar text-white text-md">
-                        Website Developed with ❤️ by <a href="" className='text-[#FED685] hover:text-green-400 transition-all ease-in-out'>TEAM BINARY BOTS</a>
+                        Website Developed with ❤️ by <Link to="https://binarybots.vercel.app/" className='text-[#FED685] hover:text-green-400 transition-all ease-in-out'>TEAM BINARY BOTS</Link>
                     </p>
                 </div>
             </div>
