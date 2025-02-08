@@ -1,4 +1,5 @@
 import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react"
 
 import Header from "./components/navigation/header/header";
 import Home from "./section/home/home";
@@ -11,6 +12,7 @@ function RoutesApp() {
 	return (
 		<Router>
 			<Header />
+			<Analytics />
 			<MainRoutes />
 			<Footer />
 		</Router>
