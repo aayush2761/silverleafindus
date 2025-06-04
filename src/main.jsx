@@ -6,8 +6,8 @@ import App from './routes.jsx'
 
 createRoot(document.getElementById('root')).render(
 	<Auth0Provider
-		domain="trulyaman25.us.auth0.com"
-		clientId="eK1KbGq5R4atuKyQxKgVkTJtZugLoXu8"
+		domain="dev-rmbpkkahukzoxrnm.us.auth0.com"
+		clientId="Y85bH99m4G0MWWihWRwJRwWTQxlylkOt"
 		authorizationParams={{
 			redirect_uri: window.location.origin
 		}}

@@ -1,189 +1,312 @@
 [
 	{
-		"productID": "mighty-horse",
-		"name": "Mighty Horse",
-		"price": 1499.00,
+		"productID": "elegant-black-reindeers",
+		"name": "Elegant Black Reindeers",
+		"price": 1199.00,
 		"images": [
-			"/productPictures/1/1.jpg",
-			"/productPictures/1/2.jpg",
-			"/productPictures/1/3.jpg",
-			"/productPictures/1/4.jpg",
-			"/productPictures/1/5.jpg",
-			"/productPictures/1/6.jpg",
-			"/productPictures/1/7.jpg",
-			"/productPictures/1/8.jpg",
-			"/productPictures/1/9.jpg",
-			"/productPictures/1/10.jpg"
+			"/productPictures/p1_elegantBlackReindeers/p1_elegantBlackReindeers_1.jpg",
+			"/productPictures/p1_elegantBlackReindeers/p1_elegantBlackReindeers_2.jpg",
+			"/productPictures/p1_elegantBlackReindeers/p1_elegantBlackReindeers_3.jpg",
+			"/productPictures/p1_elegantBlackReindeers/p1_elegantBlackReindeers_4.jpg",
+			"/productPictures/p1_elegantBlackReindeers/p1_elegantBlackReindeers_5.jpg",
+			"/productPictures/p1_elegantBlackReindeers/p1_elegantBlackReindeers_6.jpg",
+			"/productPictures/p1_elegantBlackReindeers/p1_elegantBlackReindeers_7.jpg",
+			"/productPictures/p1_elegantBlackReindeers/p1_elegantBlackReindeers_8.jpg",
+			"/productPictures/p1_elegantBlackReindeers/p1_elegantBlackReindeers_9.jpg",
+			"/productPictures/p1_elegantBlackReindeers/p1_elegantBlackReindeers_10.jpg"
 		],
-		"description": "a black metallic Indian horse symbolizing strength and resilience. A perfect addition to any collection or decor.",
+		"description": "Bring home a touch of timeless elegance with the Elegant Black Reindeers – a striking duo that effortlessly blends minimalist design with symbolic grace. Featuring sculptural antler details and crafted from solid metal, these pieces are both visually captivating and durable. More than just décor, they stand as symbols of positive energy and good luck. Whether placed on a console, shelf, or centerpiece display, they bring an artistic flair and a calming presence to your space.",
 		"reviews": {
 			"rating": 4.8,
 			"count": 42
 		},
 		"category": "Artifact",
 		"brand": "SilverLeaf Indus",
-		"shipping_info": "Free delivery on orders over $50. Secure packaging to prevent damage during transit.",
-		"features": "Exquisite handcrafted design, rich metallic black finish, durable and timeless craftsmanship.",
-		"materials": "Premium-grade black metallic alloy with an anti-corrosion finish.",
-		"dimensions": "Height: 12 inches, Width: 8 inches, Depth: 4 inches.",
-		"productCare": "Wipe with a soft, dry cloth. Avoid using harsh chemicals or abrasives to maintain the finish.",
-		"stylingTips": "Display it on a console table or shelf with other Indian artifacts to create a striking cultural theme.",
+		"shipping_info": "",
+		"features": [
+			"Striking abstract design",
+			"Sculptural antler details",
+			"Solid metal construction",
+			"Symbol of positive energy and good luck"
+		],
+		"materials": "Premium-quality solid metal with a matte black finish.",
+		"dimensions": [
+			"Large Reindeer: Height - 16 in | Width - 5  in",
+			"Small Reindeer: Height - 10 in | Width - 3.5  in"
+		],
+		"productCare": [
+			"Wipe with a soft, dry cloth",
+			"Avoid water or chemical cleaners to maintain the finish",
+			"Handle with care to prevent scratches or dents"
+		],
+		"stylingTips": [
+			"Pair with warm-toned candles or wooden accents to enhance the earthy appeal",
+			"Position near a window or spotlight to create dramatic shadows with the antler details",
+			"Ideal for entryway consoles, living room shelves, or festive table decor"
+		],
 		"link": ""
 	},
 	{
-		"productID": "the-celestial-eagle",
-		"name": "The Celestial Eagle",
-		"price": 1299.00,
+		"productID": "majestic-brass-elephant",
+		"name": "Majestic Brass Elephant",
+		"price": 2399.00,
 		"images": [
-			"/productPictures/3/1.jpg",
-			"/productPictures/3/2.jpg",
-			"/productPictures/3/3.jpg",
-			"/productPictures/3/4.jpg",
-			"/productPictures/3/5.jpg",
-			"/productPictures/3/6.jpg",
-			"/productPictures/3/7.jpg",
-			"/productPictures/3/8.jpg",
-			"/productPictures/3/9.jpg",
-			"/productPictures/3/10.jpg",
-			"/productPictures/3/11.jpg",
-			"/productPictures/3/12.jpg",
-			"/productPictures/3/13.jpg",
-			"/productPictures/3/14.jpg",
-			"/productPictures/3/15.jpg",
-			"/productPictures/3/16.jpg",
-			"/productPictures/3/17.jpg",
-			"/productPictures/3/18.jpg",
-			"/productPictures/3/19.jpg"
+			"/productPictures/p2_majesticBrassElephant/p2_majesticBrassElephant_1.jpg",
+			"/productPictures/p2_majesticBrassElephant/p2_majesticBrassElephant_2.jpg",
+			"/productPictures/p2_majesticBrassElephant/p2_majesticBrassElephant_3.jpg",
+			"/productPictures/p2_majesticBrassElephant/p2_majesticBrassElephant_4.jpg",
+			"/productPictures/p2_majesticBrassElephant/p2_majesticBrassElephant_5.jpg",
+			"/productPictures/p2_majesticBrassElephant/p2_majesticBrassElephant_6.jpg",
+			"/productPictures/p2_majesticBrassElephant/p2_majesticBrassElephant_7.jpg",
+			"/productPictures/p2_majesticBrassElephant/p2_majesticBrassElephant_8.jpg",
+			"/productPictures/p2_majesticBrassElephant/p2_majesticBrassElephant_9.jpg",
+			"/productPictures/p2_majesticBrassElephant/p2_majesticBrassElephant_10.jpg",
+			"/productPictures/p2_majesticBrassElephant/p2_majesticBrassElephant_11.jpg"
 		],
-		"description": "A stunning metallic Indian eagle artifact, embodying grace and freedom. Ideal for decor or gifting.",
-		"reviews": {
-			"rating": 4.7,
-			"count": 36
-		},
-		"category": "Artifact",
-		"brand": "SilverLeaf Indus",
-		"shipping_info": "Free delivery on orders over $50. Carefully packed to ensure it arrives in pristine condition.",
-		"features": "Intricate detailing on feathers and base, lustrous metallic finish, handcrafted by skilled artisans.",
-		"materials": "High-quality metallic alloy with a polished finish.",
-		"dimensions": "Height: 10 inches, Width: 6 inches, Depth: 5 inches.",
-		"productCare": "Clean with a soft, dry cloth. Keep away from moisture to prevent tarnishing.",
-		"stylingTips": "Pair with modern or rustic decor for a bold centerpiece on a mantel or sideboard.",
-		"link": "https://www.amazon.in/"
-	},
-	{
-		"productID": "sky-piercer-one",
-		"name": "Sky Piercer",
-		"price": 1399.00,
-		"images": [
-			"/productPictures/6/1.jpg",
-			"/productPictures/6/2.jpg",
-			"/productPictures/6/3.jpg",
-			"/productPictures/6/4.jpg",
-			"/productPictures/6/5.jpg",
-			"/productPictures/6/6.jpg",
-			"/productPictures/6/7.jpg",
-			"/productPictures/6/8.jpg",
-			"/productPictures/6/9.jpg",
-			"/productPictures/6/10.jpg"
-		],
-		"description": "A majestic metallic Indian artifact representing the union of strength and artistry. A centerpiece for any room.",
-		"reviews": {
-			"rating": 4.9,
-			"count": 50
-		},
-		"shipping_info": "Free delivery on orders over $50. Expertly packed to avoid any damage during shipping.",
-		"features": "Dynamic design with sharp edges, reflective metallic finish, built for longevity.",
-		"materials": "Premium metallic alloy treated with anti-corrosion properties.",
-		"dimensions": "Height: 15 inches, Width: 10 inches, Depth: 6 inches.",
-		"productCare": "Dust regularly with a dry cloth. Avoid contact with water or direct sunlight to preserve its finish.",
-		"stylingTips": "Place near a light source to highlight its sheen and create an eye-catching display.",
-		"link": "https://www.amazon.in/"
-	},
-	{
-		"productID": "sky-piercer-one",
-		"name": "Sky Piercer",
-		"price": 1399.00,
-		"images": [
-			"/productPictures/5/1.jpg",
-			"/productPictures/5/2.jpg",
-			"/productPictures/5/3.jpg",
-			"/productPictures/5/4.jpg",
-			"/productPictures/5/5.jpg",
-			"/productPictures/5/6.jpg",
-			"/productPictures/5/7.jpg",
-			"/productPictures/5/8.jpg",
-			"/productPictures/5/9.jpg"
-		],
-		"description": "A majestic metallic Indian artifact representing the union of strength and artistry. A centerpiece for any room.",
-		"reviews": {
-			"rating": 4.9,
-			"count": 50
-		},
-		"shipping_info": "Free delivery on orders over $50. Expertly packed to avoid any damage during shipping.",
-		"features": "Dynamic design with sharp edges, reflective metallic finish, built for longevity.",
-		"materials": "Premium metallic alloy treated with anti-corrosion properties.",
-		"dimensions": "Height: 15 inches, Width: 10 inches, Depth: 6 inches.",
-		"productCare": "Dust regularly with a dry cloth. Avoid contact with water or direct sunlight to preserve its finish.",
-		"stylingTips": "Place near a light source to highlight its sheen and create an eye-catching display.",
-		"link": "https://www.amazon.in/"
-	},
-	{
-		"productID": "sky-piercer-one",
-		"name": "Sky Piercer",
-		"price": 1399.00,
-		"images": [
-			"/productPictures/4/1.jpg",
-			"/productPictures/4/2.jpg",
-			"/productPictures/4/3.jpg",
-			"/productPictures/4/4.jpg",
-			"/productPictures/4/5.jpg",
-			"/productPictures/4/6.jpg",
-			"/productPictures/4/7.jpg",
-			"/productPictures/4/8.jpg"
-		],
-		"description": "A majestic metallic Indian artifact representing the union of strength and artistry. A centerpiece for any room.",
-		"reviews": {
-			"rating": 4.9,
-			"count": 50
-		},
-		"shipping_info": "Free delivery on orders over $50. Expertly packed to avoid any damage during shipping.",
-		"features": "Dynamic design with sharp edges, reflective metallic finish, built for longevity.",
-		"materials": "Premium metallic alloy treated with anti-corrosion properties.",
-		"dimensions": "Height: 15 inches, Width: 10 inches, Depth: 6 inches.",
-		"productCare": "Dust regularly with a dry cloth. Avoid contact with water or direct sunlight to preserve its finish.",
-		"stylingTips": "Place near a light source to highlight its sheen and create an eye-catching display.",
-		"link": "https://www.amazon.in/"
-	},
-	{
-		"productID": "travel-bus",
-		"name": "Travel Bus",
-		"price": 1399.00,
-		"images": [
-			"/productPictures/2/1.jpg",
-			"/productPictures/2/2.jpg",
-			"/productPictures/2/3.jpg",
-			"/productPictures/2/4.jpg",
-			"/productPictures/2/5.jpg",
-			"/productPictures/2/6.jpg",
-			"/productPictures/2/7.jpg",
-			"/productPictures/2/8.jpg",
-			"/productPictures/2/9.jpg",
-			"/productPictures/2/10.jpg",
-			"/productPictures/2/11.jpg"
-		],
-		"description": "A vintage-inspired metallic Indian travel bus artifact symbolizing journeys and adventures. A timeless decor piece.",
+		"description": "The Majestic Brass Elephant is a timeless piece that brings together heritage, craftsmanship and symbolism. With its upward trunk and intricate engraved details, this compact décor accent is believed to usher in prosperity and positive energy. Whether displayed on a work desk, bookshelf or coffee table, it instantly adds warmth and charm to your space. It also makes for a thoughtful and auspicious gift for loved ones.",
 		"reviews": {
 			"rating": 4.6,
 			"count": 30
 		},
 		"category": "Artifact",
 		"brand": "SilverLeaf Indus",
-		"shipping_info": "Free delivery on orders over $50. Shipped in secure packaging for protection.",
-		"features": "Detailed retro design, metallic finish with a hint of patina, robust craftsmanship.",
-		"materials": "Metallic alloy with a semi-gloss antique finish.",
-		"dimensions": "Height: 8 inches, Width: 12 inches, Depth: 5 inches.",
-		"productCare": "Wipe gently with a dry cloth. Avoid using water or harsh cleaning agents.",
-		"stylingTips": "Display on a coffee table or bookshelf for a nostalgic and cultural touch.",
+		"shipping_info": "",
+		"features": [
+			"Handcrafted brass body",
+			"Detailed engraved patterns",
+			"Antique gold finish",
+			"Symbol of prosperity"
+		],
+		"materials": "100% Metal with an antique gold finish.",
+		"dimensions": "Height - 8 in | Width - 7  in",
+		"productCare": [
+			"Wipe gently with a soft, dry cloth",
+			"Avoid exposure to moisture and harsh cleaning agents",
+			"Brass may naturally patina over time, adding character to the piece"
+		],
+		"stylingTips": [
+			"Place on a console or mantel as a solo accent or as part of a brass figurine collection",
+			"Pair with traditional lamps or wooden trays for a festive vignette",
+			"Use it as a meaningful addition to your work desk or puja space"
+		],
+		"link": ""
+	},
+	{
+		"productID": "silence-figurine",
+		"name": "Emotion In Silence Figurine",
+		"price": 2399.00,
+		"images": [
+			"/productPictures/p3_emotionInSilenceFigurine/p3_emotionInSilenceFigurine_1.jpg",
+			"/productPictures/p3_emotionInSilenceFigurine/p3_emotionInSilenceFigurine_2.jpg",
+			"/productPictures/p3_emotionInSilenceFigurine/p3_emotionInSilenceFigurine_3.jpg",
+			"/productPictures/p3_emotionInSilenceFigurine/p3_emotionInSilenceFigurine_4.jpg",
+			"/productPictures/p3_emotionInSilenceFigurine/p3_emotionInSilenceFigurine_5.jpg",
+			"/productPictures/p3_emotionInSilenceFigurine/p3_emotionInSilenceFigurine_6.jpg",
+			"/productPictures/p3_emotionInSilenceFigurine/p3_emotionInSilenceFigurine_7.jpg",
+			"/productPictures/p3_emotionInSilenceFigurine/p3_emotionInSilenceFigurine_8.jpg",
+			"/productPictures/p3_emotionInSilenceFigurine/p3_emotionInSilenceFigurine_9.jpg"
+		],
+		"description": "The Emotion in Silence Figurine is a beautifully crafted piece that captures the essence of unspoken emotions. Its abstract design symbolizes mystery and invites quiet reflection. Perfect as a thoughtful gift or a meaningful addition to your home décor, this figurine adds elegance and depth to any space.",
+		"reviews": {
+			"rating": 4.9,
+			"count": 50
+		},
+		"shipping_info": "",
+		"features": [
+			"Thought-provoking design",
+			"Handcrafted abstract form",
+			"Symbolises mystery",
+			"Antique gold finish",
+			"Sturdy marble base"
+		],
+		"materials": "High-quality metal with polished marble base",
+		"dimensions": "Height - 10.5 in | Width - 5 in (approx.)",
+		"productCare": [
+			"Wipe gently with a soft, dry cloth",
+			"Avoid direct sunlight and moisture",
+			"Keep away from harsh cleaning agents"
+		],
+		"stylingTips": [
+			"Ideal for display on shelves, bedside tables, or mantelpieces",
+			"Complements neutral or minimalist interiors",
+			"Pairs well with soft lighting or candles to create a calming atmosphere",
+			"Makes a meaningful gift for loved ones who appreciate art and symbolism"
+		],
 		"link": "https://www.amazon.in/"
+	},
+	{
+		"productID": "golden-couple-under-umbrella",
+		"name": "Golden Couple Under Umbrella",
+		"price": 2399.00,
+		"images": [
+			"/productPictures/p4_goldenCoupleUnderUmbrella/p4_goldenCoupleUnderUmbrella_1.jpg",
+			"/productPictures/p4_goldenCoupleUnderUmbrella/p4_goldenCoupleUnderUmbrella_2.jpg",
+			"/productPictures/p4_goldenCoupleUnderUmbrella/p4_goldenCoupleUnderUmbrella_3.jpg",
+			"/productPictures/p4_goldenCoupleUnderUmbrella/p4_goldenCoupleUnderUmbrella_4.jpg",
+			"/productPictures/p4_goldenCoupleUnderUmbrella/p4_goldenCoupleUnderUmbrella_5.jpg",
+			"/productPictures/p4_goldenCoupleUnderUmbrella/p4_goldenCoupleUnderUmbrella_6.jpg",
+			"/productPictures/p4_goldenCoupleUnderUmbrella/p4_goldenCoupleUnderUmbrella_7.jpg",
+			"/productPictures/p4_goldenCoupleUnderUmbrella/p4_goldenCoupleUnderUmbrella_8.jpg"
+		],
+		"description": "The Golden Majestic Deer Duo is a stunning handcrafted piece made from solid brass, showcasing an elegant golden finish that radiates timeless beauty. Symbolising prosperity, this duo adds a refined touch to your home décor, bringing warmth and grace to any setting. It also makes a thoughtful gift for those who value elegance and meaningful symbolism.",
+		"reviews": {
+			"rating": 4.9,
+			"count": 50
+		},
+		"shipping_info": "",
+		"features": [
+			"Premium gold metal finish",
+			"Solid marble base",
+			"Symbol of love and unity",
+			"Improves Family Harmony"
+		],
+		"materials": "Premium gold-finished metal with solid marble base",
+		"dimensions": "Height – 12  in | Width – 5.5  in (approx.)",
+		"productCare": [
+			"Clean with a soft, dry cloth",
+			"Avoid exposure to direct sunlight and moisture",
+			"Handle with care to maintain finish"
+		],
+		"stylingTips": [
+			"Display on coffee tables, shelves, or entryway consoles",
+			"Complements warm-toned and modern interiors",
+			"Pair with family photos or soft lighting to enhance its symbolism",
+			"Makes a heartfelt gift for weddings, anniversaries, or special occasions"
+		],
+		"link": ""
+	},
+	{
+		"productID": "golden-romantic-couple-figurine",
+		"name": "Golden Romantic Couple Figurine",
+		"price": 2399.00,
+		"images": [
+			"/productPictures/p5_goldenRomanticCoupleFigurine/p5_goldenRomanticCoupleFigurine_1.jpg",
+			"/productPictures/p5_goldenRomanticCoupleFigurine/p5_goldenRomanticCoupleFigurine_2.jpg",
+			"/productPictures/p5_goldenRomanticCoupleFigurine/p5_goldenRomanticCoupleFigurine_3.jpg",
+			"/productPictures/p5_goldenRomanticCoupleFigurine/p5_goldenRomanticCoupleFigurine_4.jpg",
+			"/productPictures/p5_goldenRomanticCoupleFigurine/p5_goldenRomanticCoupleFigurine_5.jpg",
+			"/productPictures/p5_goldenRomanticCoupleFigurine/p5_goldenRomanticCoupleFigurine_6.jpg",
+			"/productPictures/p5_goldenRomanticCoupleFigurine/p5_goldenRomanticCoupleFigurine_7.jpg",
+			"/productPictures/p5_goldenRomanticCoupleFigurine/p5_goldenRomanticCoupleFigurine_8.jpg",
+			"/productPictures/p5_goldenRomanticCoupleFigurine/p5_goldenRomanticCoupleFigurine_9.jpg",
+			"/productPictures/p5_goldenRomanticCoupleFigurine/p5_goldenRomanticCoupleFigurine_10.jpg",
+			"/productPictures/p5_goldenRomanticCoupleFigurine/p5_goldenRomanticCoupleFigurine_11.jpg"
+		],
+		"description": "The Golden Romantic Couple Figurine beautifully evokes strength and care through its balanced, minimalist aesthetic. Crafted with an elegant gold metal finish, it radiates warmth and sophistication, while the solid white marble base adds stability and timeless charm. This figurine is a perfect gift or décor accent that celebrates enduring love and connection in a subtle yet striking way.",
+		"reviews": {
+			"rating": 4.7,
+			"count": 36
+		},
+		"category": "Artifact",
+		"brand": "SilverLeaf Indus",
+		"shipping_info": "",
+		"features": [
+			"Evokes strength and care",
+			"Elegant gold metal finish",
+			"Solid white marble base",
+			"Balanced, minimalist aesthetic"
+		],
+		"materials": "Premium gold-finished metal with solid marble base",
+		"dimensions": "Height - 13  in | Width - 5.5 in",
+		"productCare": [
+			"Wipe gently with a soft, dry cloth",
+			"Keep away from direct sunlight and moisture",
+			"Avoid abrasive cleaners"
+		],
+		"stylingTips": [
+			"Ideal for display on bedside tables, shelves, or desks",
+			"Complements minimalist, modern, and warm interiors",
+			"Pair with soft fabrics or warm lighting to enhance its elegant presence",
+			"Perfect as a gift to celebrate love, care, and togetherness"
+		],
+		"link": ""
+	},
+	{
+		"productID": "golden-abstract-thinking-face",
+		"name": "Golden Abstract Thinking Face",
+		"price": 2399.00,
+		"images": [
+			"/productPictures/p6_goldenAbstractThinkingFace/p6_goldenAbstractThinkingFace_1.jpg",
+			"/productPictures/p6_goldenAbstractThinkingFace/p6_goldenAbstractThinkingFace_2.jpg",
+			"/productPictures/p6_goldenAbstractThinkingFace/p6_goldenAbstractThinkingFace_3.jpg",
+			"/productPictures/p6_goldenAbstractThinkingFace/p6_goldenAbstractThinkingFace_4.jpg",
+			"/productPictures/p6_goldenAbstractThinkingFace/p6_goldenAbstractThinkingFace_5.jpg",
+			"/productPictures/p6_goldenAbstractThinkingFace/p6_goldenAbstractThinkingFace_6.jpg",
+			"/productPictures/p6_goldenAbstractThinkingFace/p6_goldenAbstractThinkingFace_7.jpg",
+			"/productPictures/p6_goldenAbstractThinkingFace/p6_goldenAbstractThinkingFace_8.jpg"
+		],
+		"description": "The Golden Abstract Thinking Face figurine is a striking symbol of insight and awareness. Featuring a unique abstract face and hand design, it captures the essence of thoughtful reflection. Finished in a radiant gold metallic tone and set on a sturdy white marble base, this piece combines durable craftsmanship with timeless elegance. Ideal as a meaningful gift or a sophisticated décor addition, it inspires contemplation and adds artistic flair to any space.",
+		"reviews": {
+			"rating": 4.9,
+			"count": 50
+		},
+		"shipping_info": "",
+		"features": [
+			"Gold metallic finish with white marble base",
+			"Abstract face and hand design",
+			"Symbol of insight and awareness",
+			"Durable and timeless craftsmanship"
+		],
+		"materials": "Premium gold-finished metal with solid marble base",
+		"dimensions": "Height -  13 in | Width - 5  in (approx.)",
+		"productCare": [
+			"Clean with a soft, dry cloth",
+			"Avoid exposure to direct sunlight and moisture",
+			"Handle gently to preserve finish"
+		],
+		"stylingTips": [
+			"Perfect for desks, bookshelves, or mantelpieces",
+			"Complements modern, minimalist, and artistic interiors",
+			"Pair with neutral tones and soft lighting to highlight its abstract form",
+			"Makes a thoughtful gift for those who appreciate art and mindfulness"
+		],
+		"link": ""
+	},
+	{
+		"productID": "golden-majestic-deer-duo",
+		"name": "Golden Majestic Deer Duo",
+		"price": 2999.00,
+		"images": [
+			"/productPictures/p7_goldenMajesticDeerDuo/p7_goldenMajesticDeerDuo_1.jpg",
+			"/productPictures/p7_goldenMajesticDeerDuo/p7_goldenMajesticDeerDuo_2.jpg",
+			"/productPictures/p7_goldenMajesticDeerDuo/p7_goldenMajesticDeerDuo_3.jpg",
+			"/productPictures/p7_goldenMajesticDeerDuo/p7_goldenMajesticDeerDuo_4.jpg",
+			"/productPictures/p7_goldenMajesticDeerDuo/p7_goldenMajesticDeerDuo_5.jpg",
+			"/productPictures/p7_goldenMajesticDeerDuo/p7_goldenMajesticDeerDuo_6.jpg",
+			"/productPictures/p7_goldenMajesticDeerDuo/p7_goldenMajesticDeerDuo_7.jpg",
+			"/productPictures/p7_goldenMajesticDeerDuo/p7_goldenMajesticDeerDuo_8.jpg",
+			"/productPictures/p7_goldenMajesticDeerDuo/p7_goldenMajesticDeerDuo_9.jpg",
+			"/productPictures/p7_goldenMajesticDeerDuo/p7_goldenMajesticDeerDuo_10.jpg"
+		],
+		"description": "The Golden Abstract Thinking Face figurine is a striking symbol of insight and awareness. Featuring a unique abstract face and hand design, it captures the essence of thoughtful reflection. Finished in a radiant gold metallic tone and set on a sturdy white marble base, this piece combines durable craftsmanship with timeless elegance. Ideal as a meaningful gift or a sophisticated décor addition, it inspires contemplation and adds artistic flair to any space.",
+		"reviews": {
+			"rating": 4.9,
+			"count": 50
+		},
+		"shipping_info": "",
+		"features": [
+			"Handcrafted solid brass",
+			"Elegant golden finish",
+			"Ideal for home decor",
+			"Symbol of prosperity"
+		],
+		"materials": "Premium gold-finished metal with solid marble base.",
+		"dimensions": [
+			"Large Reindeer: Height - 14 in | Width - 7.5 in",
+			"Small Reindeer: Height - 12  in | Width - 5 in"
+
+		],
+		"productCare": [
+			"Clean with a soft, dry cloth",
+			"Avoid exposure to direct sunlight and moisture",
+			"Handle gently to preserve finish"
+		],
+		"stylingTips": [
+			"Ideal for display on shelves, mantelpieces, or side tables",
+			"Complements traditional, classic, and contemporary interiors",
+			"Pair with natural elements like wood or plants to enhance its charm",
+			"Perfect as a gift to celebrate prosperity and elegance"
+		],
+		"link": ""
 	}
 ]

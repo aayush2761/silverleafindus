@@ -70,14 +70,14 @@ function Home() {
                                     <img src={product.images[0]} alt={`${product.name}'s image`} className="w-full h-auto transition-all duration-300 ease-in-out hover:scale-105 hover:brightness-75" />
                                 </Link>
 
-                                <div className="px-6 sm:px-10 py-10 space-y-3">
-                                    <h2 className="text-2xl font-saudagar text-gray-800">{product.name}</h2>
-                                    <h2 className="text-md  font-saudagar text-gray-600 lowercase">{product.description}</h2>
+                                <div className="px-6 sm:px-6 py-6 space-y-3">
+                                    <h2 className="text-2xl font-saudagar font-bold text-gray-800">{product.name}</h2>
+                                    <h2 className="text-md font-saudagar text-gray-600 lowercase line-clamp-2 h-[48px]">{product.description}</h2>
 
                                     <div className="flex justify-between items-center">
                                         <div>
                                             <p className="text-gray-600 text-md font-saudagar">price</p>
-                                            <p className="text-xl font-bold text-gray-900 font-saudagar">₹ {product.price}</p>
+                                            <p className="text-xl font-bold text-emerald-500 font-saudagar">₹ {product.price}</p>
                                         </div>
 
                                         <Link to={`/product/${product.productID}`} className="rounded-xl transition-colors uppercase font-megante px-4 py-2 lg:px-3 lg:py-2 border-2 border-[#FED685] bg-[#FED685] hover:bg-transparent hover:text-[#131313] text-black text-sm"> view details </Link>
