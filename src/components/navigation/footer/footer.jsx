@@ -60,6 +60,9 @@ function Footer() {
                             <Link className="font-megante hover:text-[#FED685] flex items-center cursor-pointer">FAQs</Link>
                             <Link className="font-megante hover:text-[#FED685] flex items-center cursor-pointer">Privacy</Link>
                             <Link to="/contact" className="font-megante hover:text-[#FED685] flex items-center cursor-pointer">Contact</Link>
+                            <a href="mailto:support@silverleafindus.com" className="font-megante hover:text-[#FED685] flex items-center cursor-pointer group">
+                                <span className="group-hover:underline">support@silverleafindus.com</span>
+                            </a>
                         </div>
                     </div>
                 </div>
