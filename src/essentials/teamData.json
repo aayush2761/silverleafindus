@@ -1,22 +1,22 @@
 [
     {
-        "name": "Aman Kumar",
-        "role": "Blockchain/Full Stack Developer",
-        "description": "Blockchain and Full Stack developer, focused on secure, decentralized document storage for checkMate. Aman also leads UI design, creating an intuitive interface that enhances user experience.",
-        "img": "/teamMembers/amanImg.jpg",
+        "name": "Sanjay Kumar Sinha",
+        "role": "Director",
+        "description": "With over 20 years of distinguished service in the government sector, Sanjay Kumar Sinha brings a wealth of experience, discipline, and strategic vision to the company. Now channeling his expertise into entrepreneurship, he is passionately building this venture from the ground up. Known for his strong industry network and leadership capabilities, he plays a pivotal role in driving growth, forging partnerships, and ensuring operational excellence.",
+        "img": "/teamMembers/sanjaySinha.jpg",
         "socialLinks": [
-            { "url": "https://www.instagram.com/amanwhoooo/", "icon": "instagram" },
-            { "url": "https://www.linkedin.com/in/amankumar25/", "icon": "linkedIn" }
+            { "url": "https://www.instagram.com//", "icon": "instagram" },
+            { "url": "https://www.linkedin.com/in//", "icon": "linkedIn" }
         ]
     },
     {
-        "name": "Anshdeep Shrivastav",
-        "role": "ML/Full Stack Developer",
-        "description": "ML/Backend developer, managing backend integration and processing pipelines. Ansh's machine learning expertise optimizes document data flow and enables accurate, reliable backend operations.",
-        "img": "/teamMembers/anshImg.jpg",
+        "name": "Sangeeta Sinha",
+        "role": "Director",
+        "description": "A lawyer by profession and an interior designer by passion, Sangeeta Sinha brings a rare blend of creativity, precision, and entrepreneurial spirit to the company. With a deep understanding of aesthetics, structure, and strategy, she leads the brand with a vision to offer thoughtfully curated products and services across diverse categories. Her multifaceted expertise drives innovation, trust, and quality in everything we do.",
+        "img": "/teamMembers/sangeetaSinha.jpg",
         "socialLinks": [
-            { "url": "https://www.instagram.com/ansh_d23/", "icon": "instagram" },
-            { "url": "https://www.linkedin.com/in/anshdeep-shrivastav-5a9a6b244/", "icon": "linkedIn" }
+            { "url": "https://www.instagram.com//", "icon": "instagram" },
+            { "url": "https://www.linkedin.com/in//", "icon": "linkedIn" }
         ]
     }
 ]

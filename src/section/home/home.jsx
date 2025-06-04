@@ -145,10 +145,10 @@ function Home() {
                         <div className="py-10 lg:px-24 xl:px-28 2xl:px-44">
                             <motion.div className="grid grid-cols-1 md:grid-cols-2 gap-20 w-full" initial={{ opacity: 0, y: 20 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.5, delay: 0.3 }} >
                                 {teamData.map((member, index) => (
-                                    <div key={index} className="bg-white w-full xs:w-[80%] sm:w-[70%] md:w-[100%] max-w-[350px] mx-auto overflow-hidden shadow-lg relative group">
+                                    <div key={index} className="bg-white w-full cursor-pointer xs:w-[80%] sm:w-[70%] md:w-[100%] max-w-[350px] mx-auto overflow-hidden shadow-lg relative group">
                                         <div className="relative w-full h-auto overflow-hidden">
                                             <img src={member.img} alt={member.name} className="w-full h-auto object-cover object-center transition-transform duration-500 ease-in-out transform hover:scale-105 hover:brightness-75" />
-                                            <div className="absolute inset-0 flex justify-center items-center bg-black bg-opacity-50 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
+                                            <div className="absolute inset-0 flex justify-center items-center bg-black opacity-0 group-hover:opacity-50 transition-opacity duration-300">
                                                 <div className="flex space-x-10">
                                                     {member.socialLinks.map((link, idx) => (
                                                         <a key={idx} href={link.url} target="_blank" rel="noopener noreferrer" className="text-white text-2xl hover:text-gray-300" >
