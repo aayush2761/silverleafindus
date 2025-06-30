@@ -37,11 +37,3 @@ SilverLeaf-Indus/
 │── package.json   # Dependencies and scripts
 │── README.md      # Project documentation
 ```
-
-## Contributing
-
-Contributions are welcome! If you'd like to contribute, please reach out to `trulyaman25@gmail.com`
-
-## Contact
-
-For any queries or feedback, reach out to `trulyaman25@gmail.com`.
